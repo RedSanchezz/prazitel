@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Празител особый</title>
+    <link rel="stylesheet" href="./css/libs/libs.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head>
+
+<body>
+
+    <div class="navigation-menu">
+        <div class="container">
+            <div class="navigation-menu__inner">
+                <div class="navigation-menu__active-widnow">
+                    <div class="navigation-menu__active-widnow-inner">
+                        <div class="navigation-menu__active-window-text">Бережная обработка нужна каждому питомцу</div>
+                        <div class="navigation-menu__active-window-icon">
+                            <img src="images/nav-menu-icon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation-menu__where-buy">Где купить</div>
+                <div class="navigation-menu__link-list link-list">
+                    <div class="link-list__item" onClick='setCurrentSlide(1)'>Бережная обработка нужна каждому питомцу</div>
+                    <div class="link-list__item" onClick='setCurrentSlide(2)'>Защита от гельминтов: главное</div>
+                    <div class="link-list__item" onClick='setCurrentSlide(3)'>Меняйте жизнь питомца к лучшему</div>
+                    <div class="link-list__item" onClick='setCurrentSlide(4)'>Ассортимент</div>
+                    <div class="link-list__item" onClick='setCurrentSlide(5)'>Где купить</div>
+                    <div class="link-list__item" onClick='setCurrentSlide(6)'>Задать вопрос ветеринарному врачу</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <header class="header" id='header_block'>
+        <div class="header-content">
+            <div class="container">
+                <div class="header-top">
+                    <h2 class="header-top__title title-30">
+                        суспензия от гельминтов
+                        <br> для кошек и собак
+                    </h2>
+                    <div class="header-top__logo">
+                        <a href="#">
+                            <img src="./images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="header-content__tablet">
+                    <img src="images/tablets.png" id='tablet_img' alt="tablets">
+                </div>
+                <div class="header-content__bottom">
+                    <div class="header-content__substrate substrate">
+                        <div class="substrate__img">
+                            <img src="images/R-prazicvantel.ico.png " alt=" ">
+                        </div>
+                        <div class="substrate__text">
+                            Впервые в России в составе <br> ветеринарного препарата
+                        </div>
+                    </div>
+
+                    <div class="header-content__icons icons">
+                        <div class="icons__item">
+                            <div class="icons__item-icon">
+                                <img src="images/icon1.png" alt="">
+                            </div>
+                            <div class="icons__item-text">
+                                Где купить
+                            </div>
+                        </div>
+                        <div class="icons__item">
+                            <div class="icons__item-icon">
+                                <img src="images/icon2.png" alt="">
+                            </div>
+                            <div class="icons__item-text">
+                                <div class="icons__item-text-padding">Задать вопрос</div>
+                                <div class="gray-text">
+                                    ветеринарному <br> врачу
+                                </div>
+                            </div>
+                        </div>
+                        <div class="icons__item">
+                            <div class="icons__item-icon">
+                                <img src="images/icon3.png" alt="">
+                            </div>
+                            <div class="icons__item-text">
+                                Смотреть <br> видеоинструкцию
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- background -->
+        <div class="header-dog ">
+            <div class="header-arrow">
+                <img src="images/header-arrow.png" id='img_arrow' alt="">
+            </div>
+            <div class="header-arrow-2">
+                <img src="images/header-arrow-2.png" id='img_arrow2' alt="">
+            </div>
+            <div class="container">
+                <div class="header-arrow-text">
+                    Особая забота <br>
+                    <span class="header-arrow__blue-text">
+                    теперь для каждого питомца
+                </span>
+                </div>
+            </div>
+        </div>
+        <div class="header-bg ">
+        </div>
+    </header>
+    <section class="special">
+        <h2 class="section-title">Особенно</h2>
+        <div class="container">
+            <div class="special__indication indication">
+                <div class="row">
+                    <div class="indication__item">
+                        <div class="indication__item-text">
+                            Котятам с 3х недель <br> Щенкам с 2х недель
+                        </div>
+                        <div class="indication__item-img">
+                            <img src="images/indication-1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="indication__item">
+                        <div class="indication__item-text">
+                            Беременным
+                        </div>
+                        <div class="indication__item-img">
+                            <img src="images/indication-2.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="indication__item">
+                        <div class="indication__item-text">
+                            Пожилым <br> (старше 6 лет)
+                        </div>
+                        <div class="indication__item-img">
+                            <img src="images/indication-3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="indication__item bottom">
+                        <div class="indication__item-img">
+                            <img src="images/indication-bottom.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div class="special-mobile">
+        <div class="container">
+            <h2 class="section-title">Особенно</h2>
+            <div class="special-mobile__inner">
+                <div class="special-mobile__inner-item">
+                    <div class="special-mobile__inner-text">
+                        Котятам с 3х недель <br> Щенкам с 2х недель
+                    </div>
+                    <div class="special-mobile__inner-image">
+                        <img src="images/indication-1-mobile.png" alt="">
+                    </div>
+                </div>
+                <div class="special-mobile__inner-item">
+                    <div class="special-mobile__inner-text">
+                        Беременным
+                    </div>
+                    <div class="special-mobile__inner-image">
+                        <img src="images/indication-2-mobile.png" alt="">
+                    </div>
+                </div>
+                <div class="special-mobile__inner-item">
+                    <div class="special-mobile__inner-text">
+                        Пожилым <br>(старше 6 лет)
+                    </div>
+                    <div class="special-mobile__inner-image">
+                        <img src="images/indication-3-mobile.png" alt="">
+                    </div>
+                </div>
+                <div class="special-mobile__inner-item">
+                    <div class="special-mobile__inner-text">
+                        Кормящим
+                    </div>
+                    <div class="special-mobile__inner-image">
+                        <img src="images/indication-4-mobile.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <section class="changes">
+        <div class="container">
+            <div class="column">
+                <h2 class="section-title">Празител Особый. Что изменилось?</h2>
+                <div class="small-text">
+                    Празител Особый отлично знаком владельцам кошек и собак. Он назначался питомцам старше 6-ти лет. При этом состав суспензии позволяет применять её всем животным. После проведения исследований мы изменили упаковку и назначение препарата.
+                </div>
+                <h2 class="section-title">Бережный подход к каждому питомцу</h2>
+                <div class="small-text">
+                    Празител Особый отлично знаком владельцам кошек и собак. Он назначался питомцам старше 6-ти лет. При этом состав суспензии позволяет применять её всем животным. После проведения исследований мы изменили упаковку и назначение препарата.
+                </div>
+                <img class='changes-img' src="images/changes-img.png" alt="">
+            </div>
+            <div class="column">
+                <div class="changes__tablets">
+                    <img src="images/changes-tablets.png" alt="">
+                </div>
+                <h2 class="section-title">R-празиквантел в составе</h2>
+                <div class="small-text">
+                    Празител Особый содержит R-празиквантел – уникальное действующее вещество. R-празиквантел в составе суспензии позволяет существенно повысить безопасность и улучшить поедаемость препарата животными.
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="changes-mobile">
+        <div class="container">
+            <h2 class="section-title">Празител Особый. Что изменилось?</h2>
+            <div class="changes-mobile__text">
+                Празител Особый отлично знаком владельцам кошек и собак. Он назначался питомцам старше 6-ти лет. При этом состав суспензии позволяет применять её всем животным. После проведения исследований мы изменили упаковку и назначение препарата.
+            </div>
+            <div class="changes-mobile__tablets">
+                <img src="images/mobile-tablets.png" alt="">
+            </div>
+            <h2 class="section-title">Бережный подход к каждому питомцу</h2>
+            <div class="changes-mobile__text">
+                Теперь Празител Особый предназначен для кошек и собак всех возрастов без исключения. Особенно рекомендован для котят и щенков, беременных и кормящих кошек и собак, стареющих животных (старше 6-ти лет). Празител Особый бережно воздействует на организм.
+            </div>
+            <div class="changes-mobile__tablets">
+                <img src="images/changes-img-mobile.png" alt="">
+            </div>
+            <h2 class="section-title">R-празиквантел в составе</h2>
+            <div class="changes-mobile__text">
+                Празител Особый содержит R-празиквантел – уникальное действующее вещество. R-празиквантел в составе суспензии позволяет существенно повысить безопасность и улучшить поедаемость препарата животными.
+            </div>
+        </div>
+    </div>
+    <section class="plus">
+        <h2 class="section-title">Что вы получаете,<br> применяя Празител Особый питомцу?</h2>
+        <div class="plus__center-img">
+            <img src="img/plus-bg.png" alt="">
+        </div>
+        <div class="plus__inner">
+            <div class="container">
+                <div class="plus__inner-block security">
+                    <div class="plus__inner-block-text">Повышенная <br>безопасность</div>
+                    <div class="plus__inner-block-img">
+                        <img src="./images/plus-item-1.png" alt="">
+                    </div>
+                    <div class="plus__inner-block-plus">
+                        <img src="./images/plus-item-plus.png" alt="">
+                    </div>
+                </div>
+                <div class="plus__inner-block liver">
+                    <div class="plus__inner-block-text">Способствует <br> защите печени</div>
+                    <div class="plus__inner-block-img">
+                        <img src="./images/plus-item-2.png" alt="">
+                    </div>
+                    <div class="plus__inner-block-plus">
+                        <img src="./images/plus-item-plus.png" alt="">
+                    </div>
+                </div>
+
+                <div class="plus__inner-block intestines">
+                    <div class="plus__inner-block-text">Помощь <br>кишечнику </div>
+                    <div class="plus__inner-block-img">
+                        <img src="./images/plus-item-3.png" alt="">
+                    </div>
+                    <div class="plus__inner-block-plus">
+                        <img src="./images/plus-item-plus.png" alt="">
+                    </div>
+                </div>
+
+                <div class="plus__inner-block convenience">
+                    <div class="plus__inner-block-text">Удобство <br> в применении </div>
+                    <div class="plus__inner-block-img">
+                        <img src="./images/plus-item-4.png" alt="">
+                    </div>
+                    <div class="plus__inner-block-plus">
+                        <img src="./images/plus-item-plus.png" alt="">
+                    </div>
+                </div>
+
+                <div class="plus__inner-block efficiency">
+                    <div class="plus__inner-block-text">
+                        100% <br> эффективность
+                    </div>
+                    <div class="plus__inner-block-img">
+                        <img src="./images/plus-item-5.png" alt="">
+                    </div>
+                    <div class="plus__inner-block-plus">
+                        <img src="./images/plus-item-plus.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="plus__peculiarities">
+            <div class="container">
+                <div class="plus__peculiarities-content">
+                    <div class="plus__peculiarities-left-block">
+                        <div class="plus__peculiarities-title">100% эффективность</div>
+                        <div class="plus__peculiarities-text">
+                            Празител Особый прошёл необходимые клинические исследования. По их результатам выявлена 100%-ная эффективность препарата при кишечных гельминтозах у кошек и собак.
+                        </div>
+                    </div>
+                    <div class="plus__peculiarities-right-block">
+                        <div class="plus__peculiarities-img">
+                            <img src="images/peculiarities-img-1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="plus__peculiarities-back-btn">
+                        <img src="images/back-btn.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="plus__peculiarities">
+            <div class="container">
+                <div class="plus__peculiarities-content">
+                    <div class="plus__peculiarities-top-img">
+                        <img src="images/r-prazicvantel-logo-2.png" alt="">
+                    </div>
+                    <div class="plus__peculiarities-left-block">
+                        <div class="plus__peculiarities-title">Повышенная безопасность при обработке</div>
+                        <div class="plus__peculiarities-text">
+                            R-празиквантел в составе Празител Особого – инновационное действующее вещество. Ранее не применялось в составах антигельминтных препаратов для животных.
+                        </div>
+                        <div class="plus__peculiarities-text">
+                            Благодаря присутствию R-празиквантела в составе Празител Особого существенно снижена дозировка активного компонента.
+                        </div>
+                        <div class="plus__peculiarities-text">
+                            Результаты фармако-токсикологических испытаний показали: суспензия Празител Особый относится к малоопасным веществам и в рекомендуемых дозах не оказывает отрицательного влияния на организм кошек и собак старше 6
+                        </div>
+                    </div>
+                    <div class="plus__peculiarities-right-block">
+                        <div class="plus__peculiarities-title">Снижение горечи</div>
+                        <div class="plus__peculiarities-text">
+                            Празиквантел содержит в равных пропорциях оптические изомеры: активный левовращающий R-празиквантел и неактивный правовращающий S-празиквантел. Антигельминтное действие празиквантела обусловлено только R-празиквантелом, тогда как S-изомер функционально
+                            не активен и придаёт горький вкус празиквантелу.
+                        </div>
+                        <div class="plus__peculiarities-text">
+                            В составе Празител Особого – только активный изомер
+                        </div>
+                    </div>
+
+                    <div class="plus__peculiarities-back-btn">
+                        <img src="images/back-btn.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="plus__peculiarities">
+            <div class="container">
+                <div class="plus__peculiarities-content">
+                    <div class="plus__peculiarities-left-block">
+                        <div class="plus__peculiarities-title">Силибин способствует стабилизации работы печени</div>
+                        <div class="plus__peculiarities-text">
+                            Силибин – это экстракт расторопши.
+                            <ul>
+                                <li>Оптимизирует влияние действующих веществ на биохимический статус гепатоцитов</li>
+                                <li>Оказывает антиоксидантное действие</li>
+                                <li>Способствует стабилизации мембран клеток печени</li>
+                            </ul>
+                        </div>
+                        <div class="plus__peculiarities-text">
+                            Силибин корректирует и оптимизирует воздействие на организм R-празиквантела и пирантела памоата.
+                        </div>
+                    </div>
+                    <div class="plus__peculiarities-right-block">
+                        <div class="plus__peculiarities-img">
+                            <img src="images/plus-prediculation-img.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="plus__peculiarities-back-btn">
+                        <img src="images/back-btn.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="plus__peculiarities">
+            <div class="container">
+                <div class="plus__peculiarities-content">
+                    <div class="plus__peculiarities-left-block">
+                        <div class="plus__peculiarities-img">
+                            <img src="images/peculiarities-img-3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="plus__peculiarities-right-block">
+                        <div class="plus__peculiarities-title">Инулин активизирует рост микрофлоры кишечника</div>
+                        <div class="plus__peculiarities-text">
+                            Инулин – это пребиотик.
+                            <ul>
+                                <li>Помогает размножаться полезным бактериям</li>
+                                <li>Способствует нормализации моторной, секреторной, всасывательной, экскреторной, эндокринной, иммунной функции ЖКТ.</li>
+                            </ul>
+                        </div>
+                        <div class="plus__peculiarities-text">
+                            Инулин корректирует и оптимизирует воздействие на организм R-празиквантела и пирантела памоата.
+                        </div>
+                    </div>
+                    <div class="plus__peculiarities-back-btn">
+                        <img src="images/back-btn.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="plus__peculiarities">
+            <div class="container">
+                <div class="plus__peculiarities-content">
+                    <div class="plus__peculiarities-left-block">
+                        <div class="plus__peculiarities-title with-padding">Почему именно суспензия?</div>
+                        <div class="plus__peculiarities-text">
+                            Суспензия способствует быстрому проявлению лечебного действия и позволяет точно дозировать препарат в зависимости от веса животного.
+                        </div>
+                        <div class="plus__peculiarities-title with-padding">Лучше поедается</div>
+                        <div class="plus__peculiarities-text">
+                            Кошки и собаки часто отказываются принимать антигельминтик, потому что он горький. Благодаря R-празиквантелу Празител Особый имеет значительно менее горький вкус и не вызывает сильного слюнотечения у животного во время обработки.
+                        </div>
+                    </div>
+                    <div class="plus__peculiarities-right-block">
+                        <div class="plus__peculiarities-img">
+                            <img src="images/plus-mobile-img-5.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="plus__peculiarities-back-btn">
+                        <img src="images/back-btn.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="plus-mobile">
+        <div class="container">
+            <div class="section-title">Что вы получаете, применяя Празител Особый питомцу?</div>
+            <div class="plus-mobile__img">
+                <img src="images/plus-mobile-img.png" alt="">
+            </div>
+            <div class="plus-mobile__title">100% эффективность</div>
+            <div class="plus-mobile__text">
+                Празител Особый прошёл необходимые клинические исследования. По их результатам выявлена 100%-ная эффективность препарата при кишечных гельминтозах у кошек и собак.
+            </div>
+            <div class="plus-mobile__img">
+                <img src="images/plus-mobile-img-2.png" alt="">
+            </div>
+            <div class="plus-mobile__title">Повышенная безопасность при обработке</div>
+            <div class="plus-mobile__text">
+                R-празиквантел в составе Празител Особого – инновационное действующее вещество. Ранее не применялось в составах антигельминтных препаратов для животных.
+            </div>
+            <div class="plus-mobile__text">
+                Благодаря присутствию R-празиквантела в составе Празител Особого существенно снижена дозировка активного компонента.
+            </div>
+            <div class="plus-mobile__text">
+                Результаты <br>фармако-токсикологических испытаний показали: суспензия Празител Особый относится к малоопасным веществам и в рекомендуемых дозах не оказывает отрицательного влияния на организм кошек и собак старше 6 лет.
+            </div>
+            <div class="plus-mobile__text">
+                По ГОСТ 12.1.007 препарат относится к малоопасным веществам (4 класс).
+            </div>
+            <div class="plus-mobile__title">Снижение горечи</div>
+            <div class="plus-mobile__text">
+                Празиквантел содержит в равных пропорциях оптические изомеры: активный левовращающий R-празиквантел и неактивный правовращающий S-празиквантел. Антигельминтное действие празиквантела обусловлено только R-празиквантелом, тогда как S-изомер функционально
+                не активен и придаёт горький вкус празиквантелу.
+            </div>
+            <div class="plus-mobile__text">
+                В составе Празител Особого – только активный изомер R-празиквантел.
+            </div>
+            <div class="plus-mobile__img">
+                <img src="images/plus-mobile-img-3.png" alt="">
+            </div>
+            <div class="plus-mobile__title">Силибин способствует стабилизации работы печени</div>
+            <div class="plus-mobile__text">
+                Силибин – это экстракт расторопши.
+            </div>
+            <ul>
+                <li>Оптимизирует влияние действующих веществ на биохимический статус гепатоцитов</li>
+                <li>Оказывает антиоксидантное действие</li>
+                <li>Способствует стабилизации мембран клеток печени</li>
+            </ul>
+            <div class="plus-mobile__text">
+                Силибин корректирует и оптимизирует воздействие на организм R-празиквантела и пирантела памоата.
+            </div>
+            <div class="plus-mobile__img">
+                <img src="images/plus-mobile-img-4.png" alt="">
+            </div>
+            <div class="plus-mobile__title">Инулин активизирует рост микрофлоры кишечника</div>
+            <div class="plus-mobile__text">
+                Инулин – это пребиотик.
+            </div>
+            <ul>
+                <li>Помогает размножаться полезным бактериям</li>
+                <li>Способствует нормализации моторной, секреторной, всасывательной, экскреторной, эндокринной, иммунной функции ЖКТ.</li>
+            </ul>
+            <div class="plus-mobile__text">
+                Инулин корректирует и оптимизирует воздействие на организм R-празиквантела и пирантела памоата.
+            </div>
+            <div class="plus-mobile__img">
+                <img src="images/plus-mobile-img-5.png" alt="">
+            </div>
+            <div class="plus-mobile__title">Почему именно суспензия?</div>
+            <div class="plus-mobile__text">
+                Суспензия способствует быстрому проявлению лечебного действия и позволяет точно дозировать препарат в зависимости от веса животного.
+            </div>
+            <div class="plus-mobile__title">Лучше поедается</div>
+            <div class="plus-mobile__text">
+                Кошки и собаки часто отказываются принимать антигельминтик, потому что он горький. Благодаря R-празиквантелу Празител Особый имеет значительно менее горький вкус и не вызывает сильного слюнотечения у животного во время обработки.
+            </div>
+        </div>
+    </div>
+
+    <section class="choose">
+        <div class="container">
+            <h2 class="section-title">Выберите подходящий препарат для питомца</h2>
+            <div class="choose__drug-list">
+                <div class="choose__drug-item drug-item">
+                    <div class="drug-item-img">
+                        <img src="images/drug-img-1.png" alt="">
+                    </div>
+                    <div class="drug-item-text">
+                        для кошек и котят
+                    </div>
+                </div>
+                <div class="choose__drug-item drug-item">
+                    <div class="drug-item-img">
+                        <img src="images/drug-img-2.png" alt="">
+                    </div>
+                    <div class="drug-item-text">
+                        для собак и щенков<br> массой до 5 кг
+                    </div>
+                </div>
+                <div class="choose__drug-item drug-item">
+                    <div class="drug-item-img">
+                        <img src="images/drug-img-3.png" alt="">
+                    </div>
+                    <div class="drug-item-text">
+                        для собак и щенков<br> массой от 5 до 25 кг
+                    </div>
+                </div>
+                <div class="choose__drug-item drug-item">
+                    <div class="drug-item-img">
+                        <img src="images/drug-img-4.png" alt="">
+                    </div>
+                    <div class="drug-item-text">
+                        для собак и щенков<br> массой от 25 до 50 кг
+                    </div>
+                </div>
+            </div>
+            <div class="choose__affordable">
+                <div class="choose__affordable-img">
+                    <img src="images/affordable.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="shops">
+        <div class="shops__inner">
+            <div class="shops__inner-item">
+                <a target='_blank' href="https://www.ozon.ru/category/lekarstvennye-sredstva-dlya-zhivotnyh-31674/prazitel-159261375/?sorting=price&type=60665&utm_campaign=vendor_pr_os&utm_content=v1&utm_medium=vendor_astrafarm&utm_source=site_promo">
+                    <img src="images/shops-1.png" alt="">
+                </a>
+            </div>
+            <div class="shops__inner-item">
+                <a target='_blank' href="https://www.petshop.ru/search/?q=%D0%BF%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%20%D0%BE%D1%81%D0%BE%D0%B1%D1%8B%D0%B9">
+                    <img src="images/shops-2.png" alt="">
+                </a>
+            </div>
+            <div class="shops__inner-item">
+                <a target='_blank' href="https://lemurrr.ru/search?qs=%D0%BF%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB+%D0%BE%D1%81%D0%BE%D0%B1%D1%8B%D0%B9">
+                    <img src="images/shops-3.png" alt="">
+                </a>
+            </div>
+            <div class="shops__inner-item">
+                <a target='_blank' href="https://4lapy.ru/catalog/search/?query=%D0%BF%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB+%D0%BE%D1%81%D0%BE%D0%B1%D1%8B%D0%B9">
+                    <img src="images/shops-4.png" alt="">
+                </a>
+            </div>
+            <div class="shops__inner-item">
+                <a target='_blank' href="https://www.bethowen.ru/search/?q=%D0%BF%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%20%D0%BE%D1%81%D0%BE%D0%B1%D1%8B%D0%B9">
+                    <img src="images/shops-5.png" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="ask-question">
+        <div class="container">
+            <h3 class="ask-question__mobile-title">Задать вопрос <br> ветеринарному врачу</h3>
+            <form>
+                <div class="row mobile-column">
+                    <input class="ask-question__input-name" placeholder=' Имя* ' type="text">
+                    <input class="ask-question__input-email" placeholder='E-mail* ' type="text">
+                </div>
+                <div class="row">
+                    <textarea class="ask-question__question" placeholder='Содержание вопроса* ' name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="row">
+                    <div class="ask-question__data-processing">
+                        <input class="ask-question__checkbox" type="checkbox">
+                        <span class="ask-question__data-processing-text">Согласие на обработку персональных данных</span>
+                        <div class="ask-question__question-icon">
+                            <img src="images/data-processing-question-icon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row mobile-column">
+                    <div class="ask-question__checkbox-question">
+                        Даю своё согласие на обработку, использование и хранение моих персональных данных, относящихся к перечисленным категориям: фамилия, имя.
+                    </div>
+                    <div class="g-recaptcha" data-sitekey="6LdYeL8bAAAAAAlE9tvErKcKaSChtZgmAgIriBW9"></div>
+                </div>
+                <div class="row">
+                    <button class="ask-question__submit-btn">Отправить</button>
+                </div>
+                <div class="row">
+                    <div class="ya-share2" data-curtain data-services="vkontakte,facebook,telegram,odnoklassniki"></div>
+                </div>
+            </form>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="footer__text">
+                    © 2018 -2021 ООО «НПК «СКиФФ»
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+    </script>
+
+    <script src="https://yastatic.net/share2/share.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/navMenu.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/plus.js"></script>
+
+
+
+</body>
+
+</html>

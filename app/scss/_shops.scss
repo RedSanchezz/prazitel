@@ -1,0 +1,42 @@
+.shops {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shops__inner {
+    max-width: 861px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 31px;
+}
+
+@media (max-width: 768px) {
+    .shops {
+        height: auto;
+    }
+    .shops__inner {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    .shops__inner-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        img {
+            width: 133px;
+        }
+    }
+    .shops__inner-item:nth-child(5) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}

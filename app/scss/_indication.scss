@@ -1,0 +1,77 @@
+.special__indication {
+    margin-top: 54px;
+}
+
+.special-mobile {
+    display: none;
+}
+
+.indication__item-img {
+    img {
+        width: 100%;
+    }
+}
+
+.indication__item-text {
+    text-align: center;
+    margin-bottom: 35px;
+    height: 70px;
+    font-size: 28.785px;
+    font-family: "Roboto";
+    color: rgb(121, 77, 77);
+    line-height: 1.2;
+}
+
+.indication__item.bottom {
+    margin-top: 56px;
+    position: relative;
+    &::before {
+        content: 'Кормящим';
+        position: absolute;
+        top: 76px;
+        left: 112px;
+        font-size: 28.785px;
+        font-family: "Roboto";
+        color: rgb(121, 77, 77);
+        line-height: 1.2;
+    }
+}
+
+@media (max-width: 768px) {
+    .special {
+        display: none;
+    }
+    .special-mobile {
+        display: block;
+        background-color: #ececec;
+        .section-title {
+            font-size: 24px;
+            margin-top: 0;
+            padding-top: 50px;
+        }
+    }
+    .special-mobile__inner {
+        padding-top: 25px;
+    }
+    .special-mobile__inner-item {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .special-mobile__inner-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            width: 80%;
+        }
+    }
+    .special-mobile__inner-text {
+        text-align: center;
+        font-size: 18px;
+        font-family: "Roboto";
+        color: rgb(102, 102, 102);
+        line-height: 1.2;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
