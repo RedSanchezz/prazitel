@@ -1,0 +1,86 @@
+.navigation-menu {
+    position: fixed;
+    z-index: 999;
+    background-color: #cacaca;
+    width: 100%;
+    height: 80px;
+    &.active .navigation-menu__link-list {
+        height: 480px;
+    }
+}
+
+.navigation-menu {
+    display: flex;
+}
+
+.navigation-menu__active-widnow {
+    max-width: 863px;
+    width: 100%;
+    flex-shrink: 1;
+}
+
+.navigation-menu__active-widnow-inner {
+    height: 80px;
+    background-image: url(../images/nav-menu-bg.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 35px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.navigation-menu__where-buy {
+    display: flex;
+    flex-shrink: 5;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    padding-left: 15px;
+    color: #215785;
+    cursor: pointer;
+    font-size: 30px;
+    &:hover {
+        color: #0056b3;
+    }
+}
+
+.navigation-menu__inner {
+    display: flex;
+    position: relative;
+}
+
+.navigation-menu__link-list {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    max-width: 863px;
+    width: 100%;
+    cursor: pointer;
+    background-color: #cacaca;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s all;
+}
+
+.link-list__item {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 35px;
+    &:hover {
+        background-color: #225787;
+        color: white;
+    }
+    font-size: 30px;
+    color: #0f2e7d;
+}
+
+@media (max-width: 768px) {
+    .navigation-menu {
+        display: none;
+    }
+}

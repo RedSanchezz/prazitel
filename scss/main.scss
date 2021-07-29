@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 24px;
+    overflow: hidden;
+    color: #666666;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 auto;
+    &.with-overflow {
+        overflow: visible;
+    }
+}
+
+.title-30 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.small-text {
+    font-size: 18px;
+}
+
+.gray-text {
+    padding-top: 10px;
+    color: #666666;
+}
+
+section {
+    padding-top: 80px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/without-worms.jpg');
+}
+
+.section-title {
+    margin-top: 51px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Roboto";
+    color: rgb(48, 48, 48);
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.column {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    .section-title {
+        line-height: 1.2;
+        font-size: 24px;
+    }
+}
+
+@import '_navigationMenu.scss';
+@import '_header.scss';
+@import '_indication.scss';
+@import '_changes.scss';
+@import '_plus.scss';
+@import '_shoose.scss';
+@import '_shops.scss';
+@import '_askQuestion.scss';
+@import '_modalVideo.scss';

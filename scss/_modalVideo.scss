@@ -1,0 +1,35 @@
+.modal-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    z-index: -1;
+    background: rgba(255, 255, 255, 0.9);
+    transition: 1s all;
+    opacity: 0;
+    &.active {
+        z-index: 999;
+        opacity: 1;
+    }
+}
+
+.modal-video__center-block {
+    h2 {
+        text-align: center;
+        color: #303030;
+        line-height: 1.5;
+        font-weight: 500;
+        padding-bottom: 25px;
+        font-size: 30px;
+    }
+}
+
+.modal-video__back-btn {
+    position: absolute;
+    cursor: pointer;
+    bottom: 34px;
+    right: 34px;
+}

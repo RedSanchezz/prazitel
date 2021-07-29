@@ -1,0 +1,219 @@
+.ask-question {
+    position: relative;
+    form {
+        padding-top: 50px;
+    }
+    input {
+        outline: none;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+    input:focus {
+        border: 1px solid #225787;
+    }
+    textarea {
+        outline: none;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+    textarea:focus {
+        border: 1px solid #225787;
+    }
+}
+
+.ask-question__input-name {
+    max-width: 555px;
+    width: 100%;
+    padding: 0 10px;
+    height: 37px;
+    &::-webkit-input-placeholder {
+        font-size: 18px;
+        font-family: "Roboto";
+        color: rgb(162, 162, 162);
+        line-height: 1.2;
+        text-align: left;
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+    }
+    border-width: 1px;
+    border-color: rgb(34, 87, 135);
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ask-question__input-email {
+    max-width: 555px;
+    width: 100%;
+    padding: 0 10px;
+    height: 37px;
+    &::-webkit-input-placeholder {
+        font-size: 18px;
+        font-family: "Roboto";
+        color: rgb(162, 162, 162);
+        line-height: 1.2;
+        text-align: left;
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+    }
+    border-width: 1px;
+    border-color: rgb(34, 87, 135);
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ask-question__question {
+    margin-top: 38px;
+    width: 100%;
+    padding: 10px;
+    height: 235px;
+    resize: none;
+    &::-webkit-input-placeholder {
+        font-size: 18px;
+        font-family: "Roboto";
+        color: rgb(162, 162, 162);
+        line-height: 1.2;
+        text-align: left;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    border-width: 1px;
+    border-color: rgb(34, 87, 135);
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ask-question__data-processing {
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.ask-question__data-processing-text {
+    font-size: 18px;
+    padding-top: 10px;
+    margin-right: 20px;
+    color: #666666;
+    font-weight: 300;
+    margin-left: 25px;
+}
+
+.ask-question__question-icon {
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.ask-question__checkbox {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    border-top: 8px solid #225787;
+    width: 100%;
+}
+
+.footer__text {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: rgb(1, 1, 1);
+    line-height: 1.2;
+}
+
+.g-recaptcha {
+    margin-top: 35px;
+}
+
+.ask-question__submit-btn {
+    border: 1px solid (207, 73, 30);
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(207, 73, 30);
+    width: 163px;
+    height: 35px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 35px;
+    font-size: 18px;
+    color: white;
+}
+
+.ya-share2 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.ask-question__checkbox-question {
+    margin-top: 35px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #666666;
+    font-size: 18px;
+    font-weight: 300;
+    width: 0%;
+    display: none;
+    &.active {
+        display: block;
+        width: 50%;
+    }
+}
+
+.ask-question__mobile-title {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .ask-question {
+        background-image: none;
+        background-color: #ececec;
+        .section-title {
+            margin: 0;
+        }
+    }
+    .ask-question__mobile-title {
+        display: block;
+        font-size: 24px;
+        text-align: center;
+    }
+    .ask-question__question {
+        margin-top: 17px;
+    }
+    .ask-question {
+        height: auto;
+        .mobile-column {
+            flex-direction: column;
+        }
+        .ask-question__input-name {
+            max-width: 100%;
+        }
+        .ask-question__input-email {
+            max-width: 100%;
+            margin-top: 20px;
+        }
+        .ask-question__checkbox-question {
+            width: 100%;
+        }
+    }
+    .ask-question__question-icon {
+        display: none;
+    }
+    .ask-question__checkbox-question {
+        display: block;
+    }
+    .footer {
+        position: static;
+    }
+}
