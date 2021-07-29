@@ -36,7 +36,8 @@ section {
   padding-top: 80px;
   width: 100vw;
   height: 100vh;
-  background-image: url("../img/without-worms.jpg"); }
+  background-image: url("../img/without-worms.jpg");
+  background-size: cover; }
 
 .section-title {
   margin-top: 51px;
