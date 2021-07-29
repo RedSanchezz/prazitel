@@ -1,0 +1,420 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2021-07-29 15:13:32
+count workspace : d:\_first\Паразител Особый
+total files : 82
+total code lines : 18182
+total comment lines : 912
+total blank lines : 1025
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |          .json|          12028|              0|              0|     66|
+   |            .js|           1822|            606|            300|     10|
+   |          .scss|           1234|              3|             86|    6.8|
+   |               |              1|              0|              0| 0.0055|
+   |            .md|              0|              0|              0|    0.0|
+   |          .html|            638|              1|             40|    3.5|
+   |           .css|           2459|            302|            599|     14|
+   -------------------------------------------------------------------------
+.gitignore, code is 1, comment is 0, blank is 0.
+app\css\libs\libs.css, code is 1490, comment is 302, blank is 502.
+app\css\main.css, code is 969, comment is 0, blank is 97.
+app\images\affordable.png, it is a binary file.
+app\images\back-btn.png, it is a binary file.
+app\images\changes-img-mobile.png, it is a binary file.
+app\images\changes-img.png, it is a binary file.
+app\images\changes-tablets.png, it is a binary file.
+app\images\data-processing-question-icon.png, it is a binary file.
+app\images\drug-img-1.png, it is a binary file.
+app\images\drug-img-2.png, it is a binary file.
+app\images\drug-img-3.png, it is a binary file.
+app\images\drug-img-4.png, it is a binary file.
+app\images\header-arrow-2.png, it is a binary file.
+app\images\header-arrow.png, it is a binary file.
+app\images\icon1.png, it is a binary file.
+app\images\icon2.png, it is a binary file.
+app\images\icon3.png, it is a binary file.
+app\images\indication-1-mobile.png, it is a binary file.
+app\images\indication-1.png, it is a binary file.
+app\images\indication-2-mobile.png, it is a binary file.
+app\images\indication-2.png, it is a binary file.
+app\images\indication-3-mobile.png, it is a binary file.
+app\images\indication-3.png, it is a binary file.
+app\images\indication-4-mobile.png, it is a binary file.
+app\images\indication-bottom.png, it is a binary file.
+app\images\list-style-img.png, it is a binary file.
+app\images\logo.png, it is a binary file.
+app\images\mobile-arrow.png, it is a binary file.
+app\images\mobile-tablets.png, it is a binary file.
+app\images\nav-menu-bg.png, it is a binary file.
+app\images\nav-menu-icon.png, it is a binary file.
+app\images\peculiarities-img-1.png, it is a binary file.
+app\images\peculiarities-img-3.png, it is a binary file.
+app\images\peculiarities-img-4.png, it is a binary file.
+app\images\plus-bg.png, it is a binary file.
+app\images\plus-item-1.png, it is a binary file.
+app\images\plus-item-2.png, it is a binary file.
+app\images\plus-item-3.png, it is a binary file.
+app\images\plus-item-4.png, it is a binary file.
+app\images\plus-item-5.png, it is a binary file.
+app\images\plus-item-plus.png, it is a binary file.
+app\images\plus-mobile-img-2.png, it is a binary file.
+app\images\plus-mobile-img-3.png, it is a binary file.
+app\images\plus-mobile-img-4.png, it is a binary file.
+app\images\plus-mobile-img-5.png, it is a binary file.
+app\images\plus-mobile-img.png, it is a binary file.
+app\images\plus-prediculation-img.png, it is a binary file.
+app\images\r-prazicvantel-logo-2.png, it is a binary file.
+app\images\R-prazicvantel.ico.png, it is a binary file.
+app\images\shops-1.png, it is a binary file.
+app\images\shops-2.png, it is a binary file.
+app\images\shops-3.png, it is a binary file.
+app\images\shops-4.png, it is a binary file.
+app\images\shops-5.png, it is a binary file.
+app\images\tablets.png, it is a binary file.
+app\img\bg-worms.jpg, it is a binary file.
+app\img\dog.png, it is a binary file.
+app\img\logo.png, it is a binary file.
+app\img\mobile-bg.png, it is a binary file.
+app\img\plus-bg.png, it is a binary file.
+app\img\without-worms.jpg, it is a binary file.
+app\index.html, code is 638, comment is 1, blank is 40.
+app\js\libs\lib.js, code is 1631, comment is 599, blank is 244.
+app\js\navMenu.js, code is 6, comment is 0, blank is 2.
+app\js\plus.js, code is 13, comment is 0, blank is 7.
+app\js\script.js, code is 58, comment is 5, blank is 17.
+app\js\slider.js, code is 52, comment is 2, blank is 14.
+app\README.md, code is 0, comment is 0, blank is 0.
+app\scss\_askQuestion.scss, code is 204, comment is 0, blank is 15.
+app\scss\_changes.scss, code is 69, comment is 0, blank is 5.
+app\scss\_header.scss, code is 252, comment is 1, blank is 20.
+app\scss\_indication.scss, code is 70, comment is 0, blank is 5.
+app\scss\_modalVideo.scss, code is 33, comment is 0, blank is 2.
+app\scss\_navigationMenu.scss, code is 78, comment is 0, blank is 8.
+app\scss\_plus.scss, code is 332, comment is 1, blank is 13.
+app\scss\_shoose.scss, code is 69, comment is 1, blank is 4.
+app\scss\_shops.scss, code is 51, comment is 0, blank is 2.
+app\scss\main.scss, code is 76, comment is 0, blank is 12.
+gulpfile.js, code is 62, comment is 0, blank is 16.
+package-lock.json, code is 12000, comment is 0, blank is 0.
+package.json, code is 28, comment is 0, blank is 0.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2021-07-29 15:13:48
+count workspace : d:\_first\Паразител Особый
+total files : 82
+total code lines : 18182
+total comment lines : 912
+total blank lines : 1025
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |               |              1|              0|              0| 0.0055|
+   |            .js|           1822|            606|            300|     10|
+   |           .css|           2459|            302|            599|     14|
+   |          .scss|           1234|              3|             86|    6.8|
+   |            .md|              0|              0|              0|    0.0|
+   |          .json|          12028|              0|              0|     66|
+   |          .html|            638|              1|             40|    3.5|
+   -------------------------------------------------------------------------
+.gitignore, code is 1, comment is 0, blank is 0.
+app\css\libs\libs.css, code is 1490, comment is 302, blank is 502.
+app\css\main.css, code is 969, comment is 0, blank is 97.
+app\images\affordable.png, it is a binary file.
+app\images\back-btn.png, it is a binary file.
+app\images\changes-img-mobile.png, it is a binary file.
+app\images\changes-img.png, it is a binary file.
+app\images\changes-tablets.png, it is a binary file.
+app\images\data-processing-question-icon.png, it is a binary file.
+app\images\drug-img-1.png, it is a binary file.
+app\images\drug-img-2.png, it is a binary file.
+app\images\drug-img-3.png, it is a binary file.
+app\images\drug-img-4.png, it is a binary file.
+app\images\header-arrow-2.png, it is a binary file.
+app\images\header-arrow.png, it is a binary file.
+app\images\icon1.png, it is a binary file.
+app\images\icon2.png, it is a binary file.
+app\images\icon3.png, it is a binary file.
+app\images\indication-1-mobile.png, it is a binary file.
+app\images\indication-1.png, it is a binary file.
+app\images\indication-2-mobile.png, it is a binary file.
+app\images\indication-2.png, it is a binary file.
+app\images\indication-3-mobile.png, it is a binary file.
+app\images\indication-3.png, it is a binary file.
+app\images\indication-4-mobile.png, it is a binary file.
+app\images\indication-bottom.png, it is a binary file.
+app\images\list-style-img.png, it is a binary file.
+app\images\logo.png, it is a binary file.
+app\images\mobile-arrow.png, it is a binary file.
+app\images\mobile-tablets.png, it is a binary file.
+app\images\nav-menu-bg.png, it is a binary file.
+app\images\nav-menu-icon.png, it is a binary file.
+app\images\peculiarities-img-1.png, it is a binary file.
+app\images\peculiarities-img-3.png, it is a binary file.
+app\images\peculiarities-img-4.png, it is a binary file.
+app\images\plus-bg.png, it is a binary file.
+app\images\plus-item-1.png, it is a binary file.
+app\images\plus-item-2.png, it is a binary file.
+app\images\plus-item-3.png, it is a binary file.
+app\images\plus-item-4.png, it is a binary file.
+app\images\plus-item-5.png, it is a binary file.
+app\images\plus-item-plus.png, it is a binary file.
+app\images\plus-mobile-img-2.png, it is a binary file.
+app\images\plus-mobile-img-3.png, it is a binary file.
+app\images\plus-mobile-img-4.png, it is a binary file.
+app\images\plus-mobile-img-5.png, it is a binary file.
+app\images\plus-mobile-img.png, it is a binary file.
+app\images\plus-prediculation-img.png, it is a binary file.
+app\images\r-prazicvantel-logo-2.png, it is a binary file.
+app\images\R-prazicvantel.ico.png, it is a binary file.
+app\images\shops-1.png, it is a binary file.
+app\images\shops-2.png, it is a binary file.
+app\images\shops-3.png, it is a binary file.
+app\images\shops-4.png, it is a binary file.
+app\images\shops-5.png, it is a binary file.
+app\images\tablets.png, it is a binary file.
+app\img\bg-worms.jpg, it is a binary file.
+app\img\dog.png, it is a binary file.
+app\img\logo.png, it is a binary file.
+app\img\mobile-bg.png, it is a binary file.
+app\img\plus-bg.png, it is a binary file.
+app\img\without-worms.jpg, it is a binary file.
+app\index.html, code is 638, comment is 1, blank is 40.
+app\js\libs\lib.js, code is 1631, comment is 599, blank is 244.
+app\js\navMenu.js, code is 6, comment is 0, blank is 2.
+app\js\plus.js, code is 13, comment is 0, blank is 7.
+app\js\script.js, code is 58, comment is 5, blank is 17.
+app\js\slider.js, code is 52, comment is 2, blank is 14.
+app\README.md, code is 0, comment is 0, blank is 0.
+app\scss\_askQuestion.scss, code is 204, comment is 0, blank is 15.
+app\scss\_changes.scss, code is 69, comment is 0, blank is 5.
+app\scss\_header.scss, code is 252, comment is 1, blank is 20.
+app\scss\_indication.scss, code is 70, comment is 0, blank is 5.
+app\scss\_modalVideo.scss, code is 33, comment is 0, blank is 2.
+app\scss\_navigationMenu.scss, code is 78, comment is 0, blank is 8.
+app\scss\_plus.scss, code is 332, comment is 1, blank is 13.
+app\scss\_shoose.scss, code is 69, comment is 1, blank is 4.
+app\scss\_shops.scss, code is 51, comment is 0, blank is 2.
+app\scss\main.scss, code is 76, comment is 0, blank is 12.
+gulpfile.js, code is 62, comment is 0, blank is 16.
+package-lock.json, code is 12000, comment is 0, blank is 0.
+package.json, code is 28, comment is 0, blank is 0.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2021-07-29 15:14:21
+count workspace : d:\_first\Паразител Особый
+total files : 82
+total code lines : 18182
+total comment lines : 912
+total blank lines : 1025
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |          .json|          12028|              0|              0|     66|
+   |            .js|           1822|            606|            300|     10|
+   |          .scss|           1234|              3|             86|    6.8|
+   |               |              1|              0|              0| 0.0055|
+   |            .md|              0|              0|              0|    0.0|
+   |          .html|            638|              1|             40|    3.5|
+   |           .css|           2459|            302|            599|     14|
+   -------------------------------------------------------------------------
+.gitignore, code is 1, comment is 0, blank is 0.
+app\css\libs\libs.css, code is 1490, comment is 302, blank is 502.
+app\css\main.css, code is 969, comment is 0, blank is 97.
+app\images\affordable.png, it is a binary file.
+app\images\back-btn.png, it is a binary file.
+app\images\changes-img-mobile.png, it is a binary file.
+app\images\changes-img.png, it is a binary file.
+app\images\changes-tablets.png, it is a binary file.
+app\images\data-processing-question-icon.png, it is a binary file.
+app\images\drug-img-1.png, it is a binary file.
+app\images\drug-img-2.png, it is a binary file.
+app\images\drug-img-3.png, it is a binary file.
+app\images\drug-img-4.png, it is a binary file.
+app\images\header-arrow-2.png, it is a binary file.
+app\images\header-arrow.png, it is a binary file.
+app\images\icon1.png, it is a binary file.
+app\images\icon2.png, it is a binary file.
+app\images\icon3.png, it is a binary file.
+app\images\indication-1-mobile.png, it is a binary file.
+app\images\indication-1.png, it is a binary file.
+app\images\indication-2-mobile.png, it is a binary file.
+app\images\indication-2.png, it is a binary file.
+app\images\indication-3-mobile.png, it is a binary file.
+app\images\indication-3.png, it is a binary file.
+app\images\indication-4-mobile.png, it is a binary file.
+app\images\indication-bottom.png, it is a binary file.
+app\images\list-style-img.png, it is a binary file.
+app\images\logo.png, it is a binary file.
+app\images\mobile-arrow.png, it is a binary file.
+app\images\mobile-tablets.png, it is a binary file.
+app\images\nav-menu-bg.png, it is a binary file.
+app\images\nav-menu-icon.png, it is a binary file.
+app\images\peculiarities-img-1.png, it is a binary file.
+app\images\peculiarities-img-3.png, it is a binary file.
+app\images\peculiarities-img-4.png, it is a binary file.
+app\images\plus-bg.png, it is a binary file.
+app\images\plus-item-1.png, it is a binary file.
+app\images\plus-item-2.png, it is a binary file.
+app\images\plus-item-3.png, it is a binary file.
+app\images\plus-item-4.png, it is a binary file.
+app\images\plus-item-5.png, it is a binary file.
+app\images\plus-item-plus.png, it is a binary file.
+app\images\plus-mobile-img-2.png, it is a binary file.
+app\images\plus-mobile-img-3.png, it is a binary file.
+app\images\plus-mobile-img-4.png, it is a binary file.
+app\images\plus-mobile-img-5.png, it is a binary file.
+app\images\plus-mobile-img.png, it is a binary file.
+app\images\plus-prediculation-img.png, it is a binary file.
+app\images\r-prazicvantel-logo-2.png, it is a binary file.
+app\images\R-prazicvantel.ico.png, it is a binary file.
+app\images\shops-1.png, it is a binary file.
+app\images\shops-2.png, it is a binary file.
+app\images\shops-3.png, it is a binary file.
+app\images\shops-4.png, it is a binary file.
+app\images\shops-5.png, it is a binary file.
+app\images\tablets.png, it is a binary file.
+app\img\bg-worms.jpg, it is a binary file.
+app\img\dog.png, it is a binary file.
+app\img\logo.png, it is a binary file.
+app\img\mobile-bg.png, it is a binary file.
+app\img\plus-bg.png, it is a binary file.
+app\img\without-worms.jpg, it is a binary file.
+app\index.html, code is 638, comment is 1, blank is 40.
+app\js\libs\lib.js, code is 1631, comment is 599, blank is 244.
+app\js\navMenu.js, code is 6, comment is 0, blank is 2.
+app\js\plus.js, code is 13, comment is 0, blank is 7.
+app\js\script.js, code is 58, comment is 5, blank is 17.
+app\js\slider.js, code is 52, comment is 2, blank is 14.
+app\README.md, code is 0, comment is 0, blank is 0.
+app\scss\_askQuestion.scss, code is 204, comment is 0, blank is 15.
+app\scss\_changes.scss, code is 69, comment is 0, blank is 5.
+app\scss\_header.scss, code is 252, comment is 1, blank is 20.
+app\scss\_indication.scss, code is 70, comment is 0, blank is 5.
+app\scss\_modalVideo.scss, code is 33, comment is 0, blank is 2.
+app\scss\_navigationMenu.scss, code is 78, comment is 0, blank is 8.
+app\scss\_plus.scss, code is 332, comment is 1, blank is 13.
+app\scss\_shoose.scss, code is 69, comment is 1, blank is 4.
+app\scss\_shops.scss, code is 51, comment is 0, blank is 2.
+app\scss\main.scss, code is 76, comment is 0, blank is 12.
+gulpfile.js, code is 62, comment is 0, blank is 16.
+package-lock.json, code is 12000, comment is 0, blank is 0.
+package.json, code is 28, comment is 0, blank is 0.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2021-07-29 15:14:44
+count workspace : d:\_first\Паразител Особый
+total files : 82
+total code lines : 18182
+total comment lines : 912
+total blank lines : 1025
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |          .json|          12028|              0|              0|     66|
+   |               |              1|              0|              0| 0.0055|
+   |            .js|           1822|            606|            300|     10|
+   |          .scss|           1234|              3|             86|    6.8|
+   |            .md|              0|              0|              0|    0.0|
+   |          .html|            638|              1|             40|    3.5|
+   |           .css|           2459|            302|            599|     14|
+   -------------------------------------------------------------------------
+.gitignore, code is 1, comment is 0, blank is 0.
+app\css\libs\libs.css, code is 1490, comment is 302, blank is 502.
+app\css\main.css, code is 969, comment is 0, blank is 97.
+app\images\affordable.png, it is a binary file.
+app\images\back-btn.png, it is a binary file.
+app\images\changes-img-mobile.png, it is a binary file.
+app\images\changes-img.png, it is a binary file.
+app\images\changes-tablets.png, it is a binary file.
+app\images\data-processing-question-icon.png, it is a binary file.
+app\images\drug-img-1.png, it is a binary file.
+app\images\drug-img-2.png, it is a binary file.
+app\images\drug-img-3.png, it is a binary file.
+app\images\drug-img-4.png, it is a binary file.
+app\images\header-arrow-2.png, it is a binary file.
+app\images\header-arrow.png, it is a binary file.
+app\images\icon1.png, it is a binary file.
+app\images\icon2.png, it is a binary file.
+app\images\icon3.png, it is a binary file.
+app\images\indication-1-mobile.png, it is a binary file.
+app\images\indication-1.png, it is a binary file.
+app\images\indication-2-mobile.png, it is a binary file.
+app\images\indication-2.png, it is a binary file.
+app\images\indication-3-mobile.png, it is a binary file.
+app\images\indication-3.png, it is a binary file.
+app\images\indication-4-mobile.png, it is a binary file.
+app\images\indication-bottom.png, it is a binary file.
+app\images\list-style-img.png, it is a binary file.
+app\images\logo.png, it is a binary file.
+app\images\mobile-arrow.png, it is a binary file.
+app\images\mobile-tablets.png, it is a binary file.
+app\images\nav-menu-bg.png, it is a binary file.
+app\images\nav-menu-icon.png, it is a binary file.
+app\images\peculiarities-img-1.png, it is a binary file.
+app\images\peculiarities-img-3.png, it is a binary file.
+app\images\peculiarities-img-4.png, it is a binary file.
+app\images\plus-bg.png, it is a binary file.
+app\images\plus-item-1.png, it is a binary file.
+app\images\plus-item-2.png, it is a binary file.
+app\images\plus-item-3.png, it is a binary file.
+app\images\plus-item-4.png, it is a binary file.
+app\images\plus-item-5.png, it is a binary file.
+app\images\plus-item-plus.png, it is a binary file.
+app\images\plus-mobile-img-2.png, it is a binary file.
+app\images\plus-mobile-img-3.png, it is a binary file.
+app\images\plus-mobile-img-4.png, it is a binary file.
+app\images\plus-mobile-img-5.png, it is a binary file.
+app\images\plus-mobile-img.png, it is a binary file.
+app\images\plus-prediculation-img.png, it is a binary file.
+app\images\r-prazicvantel-logo-2.png, it is a binary file.
+app\images\R-prazicvantel.ico.png, it is a binary file.
+app\images\shops-1.png, it is a binary file.
+app\images\shops-2.png, it is a binary file.
+app\images\shops-3.png, it is a binary file.
+app\images\shops-4.png, it is a binary file.
+app\images\shops-5.png, it is a binary file.
+app\images\tablets.png, it is a binary file.
+app\img\bg-worms.jpg, it is a binary file.
+app\img\dog.png, it is a binary file.
+app\img\logo.png, it is a binary file.
+app\img\mobile-bg.png, it is a binary file.
+app\img\plus-bg.png, it is a binary file.
+app\img\without-worms.jpg, it is a binary file.
+app\index.html, code is 638, comment is 1, blank is 40.
+app\js\libs\lib.js, code is 1631, comment is 599, blank is 244.
+app\js\navMenu.js, code is 6, comment is 0, blank is 2.
+app\js\plus.js, code is 13, comment is 0, blank is 7.
+app\js\script.js, code is 58, comment is 5, blank is 17.
+app\js\slider.js, code is 52, comment is 2, blank is 14.
+app\README.md, code is 0, comment is 0, blank is 0.
+app\scss\_askQuestion.scss, code is 204, comment is 0, blank is 15.
+app\scss\_changes.scss, code is 69, comment is 0, blank is 5.
+app\scss\_header.scss, code is 252, comment is 1, blank is 20.
+app\scss\_indication.scss, code is 70, comment is 0, blank is 5.
+app\scss\_modalVideo.scss, code is 33, comment is 0, blank is 2.
+app\scss\_navigationMenu.scss, code is 78, comment is 0, blank is 8.
+app\scss\_plus.scss, code is 332, comment is 1, blank is 13.
+app\scss\_shoose.scss, code is 69, comment is 1, blank is 4.
+app\scss\_shops.scss, code is 51, comment is 0, blank is 2.
+app\scss\main.scss, code is 76, comment is 0, blank is 12.
+gulpfile.js, code is 62, comment is 0, blank is 16.
+package-lock.json, code is 12000, comment is 0, blank is 0.
+package.json, code is 28, comment is 0, blank is 0.
+===============================================================================

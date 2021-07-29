@@ -12,6 +12,7 @@ body {
     font-family: 'Roboto';
     font-size: 24px;
     overflow: hidden;
+    color: #666666;
 }
 
 .container {
@@ -43,6 +44,7 @@ section {
     width: 100vw;
     height: 100vh;
     background-image: url('../img/without-worms.jpg');
+    background-size: cover;
 }
 
 .section-title {
@@ -52,6 +54,7 @@ section {
     font-family: "Roboto";
     color: rgb(48, 48, 48);
     line-height: 1.6;
+    font-weight: 500;
 }
 
 .row {
@@ -68,6 +71,10 @@ section {
     .container {
         padding: 0 15px;
     }
+    .section-title {
+        line-height: 1.2;
+        font-size: 24px;
+    }
 }
 
 @import '_navigationMenu.scss';
@@ -78,3 +85,4 @@ section {
 @import '_shoose.scss';
 @import '_shops.scss';
 @import '_askQuestion.scss';
+@import '_modalVideo.scss';

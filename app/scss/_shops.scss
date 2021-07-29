@@ -2,6 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    .section-title {
+        display: none;
+        margin-bottom: 60px;
+    }
 }
 
 .shops__inner {
@@ -16,6 +20,13 @@
 @media (max-width: 768px) {
     .shops {
         height: auto;
+        display: block;
+        padding-top: 50px;
+        .section-title {
+            display: block;
+            margin-bottom: 50px;
+            margin-top: 0;
+        }
     }
     .shops__inner {
         grid-template-rows: 1fr 1fr 1fr;

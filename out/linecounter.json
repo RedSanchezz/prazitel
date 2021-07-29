@@ -1,0 +1,2399 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "d:\\_first\\Паразител Особый",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2021-07-29 15:13:32",
+            "filesum": 82,
+            "codesum": 18182,
+            "commentsum": 912,
+            "blanksum": 1025,
+            "statistics": {
+                ".json": {
+                    "code": 12028,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".js": {
+                    "code": 1822,
+                    "comment": 606,
+                    "blank": 300
+                },
+                ".scss": {
+                    "code": 1234,
+                    "comment": 3,
+                    "blank": 86
+                },
+                "": {
+                    "code": 1,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".md": {
+                    "code": 0,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".html": {
+                    "code": 638,
+                    "comment": 1,
+                    "blank": 40
+                },
+                ".css": {
+                    "code": 2459,
+                    "comment": 302,
+                    "blank": 599
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 502,
+                    "code": 1490,
+                    "comment": 302,
+                    "filename": "app\\css\\libs\\libs.css"
+                },
+                {
+                    "blank": 97,
+                    "code": 969,
+                    "comment": 0,
+                    "filename": "app\\css\\main.css"
+                },
+                {
+                    "filename": "app\\images\\affordable.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\back-btn.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\changes-img-mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\changes-img.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\changes-tablets.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\data-processing-question-icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\drug-img-1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\drug-img-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\drug-img-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\drug-img-4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\header-arrow-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\header-arrow.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\icon1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\icon2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\icon3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-1-mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-2-mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-3-mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-4-mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-bottom.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\list-style-img.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\mobile-arrow.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\mobile-tablets.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\nav-menu-bg.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\nav-menu-icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\peculiarities-img-1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\peculiarities-img-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\peculiarities-img-4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-bg.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-5.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-plus.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-mobile-img-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-mobile-img-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-mobile-img-4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-mobile-img-5.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-mobile-img.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-prediculation-img.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\r-prazicvantel-logo-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\R-prazicvantel.ico.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\shops-1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\shops-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\shops-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\shops-4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\shops-5.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\tablets.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\bg-worms.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\dog.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\mobile-bg.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\plus-bg.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\without-worms.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 40,
+                    "code": 638,
+                    "comment": 1,
+                    "filename": "app\\index.html"
+                },
+                {
+                    "blank": 244,
+                    "code": 1631,
+                    "comment": 599,
+                    "filename": "app\\js\\libs\\lib.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "app\\js\\navMenu.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "app\\js\\plus.js"
+                },
+                {
+                    "blank": 17,
+                    "code": 58,
+                    "comment": 5,
+                    "filename": "app\\js\\script.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 52,
+                    "comment": 2,
+                    "filename": "app\\js\\slider.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "app\\README.md"
+                },
+                {
+                    "blank": 15,
+                    "code": 204,
+                    "comment": 0,
+                    "filename": "app\\scss\\_askQuestion.scss"
+                },
+                {
+                    "blank": 5,
+                    "code": 69,
+                    "comment": 0,
+                    "filename": "app\\scss\\_changes.scss"
+                },
+                {
+                    "blank": 20,
+                    "code": 252,
+                    "comment": 1,
+                    "filename": "app\\scss\\_header.scss"
+                },
+                {
+                    "blank": 5,
+                    "code": 70,
+                    "comment": 0,
+                    "filename": "app\\scss\\_indication.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "app\\scss\\_modalVideo.scss"
+                },
+                {
+                    "blank": 8,
+                    "code": 78,
+                    "comment": 0,
+                    "filename": "app\\scss\\_navigationMenu.scss"
+                },
+                {
+                    "blank": 13,
+                    "code": 332,
+                    "comment": 1,
+                    "filename": "app\\scss\\_plus.scss"
+                },
+                {
+                    "blank": 4,
+                    "code": 69,
+                    "comment": 1,
+                    "filename": "app\\scss\\_shoose.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "app\\scss\\_shops.scss"
+                },
+                {
+                    "blank": 12,
+                    "code": 76,
+                    "comment": 0,
+                    "filename": "app\\scss\\main.scss"
+                },
+                {
+                    "blank": 16,
+                    "code": 62,
+                    "comment": 0,
+                    "filename": "gulpfile.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 12000,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "package.json"
+                }
+            ]
+        },
+        {
+            "version": "0.2.7",
+            "counttime": "2021-07-29 15:13:48",
+            "filesum": 82,
+            "codesum": 18182,
+            "commentsum": 912,
+            "blanksum": 1025,
+            "statistics": {
+                "": {
+                    "code": 1,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".js": {
+                    "code": 1822,
+                    "comment": 606,
+                    "blank": 300
+                },
+                ".css": {
+                    "code": 2459,
+                    "comment": 302,
+                    "blank": 599
+                },
+                ".scss": {
+                    "code": 1234,
+                    "comment": 3,
+                    "blank": 86
+                },
+                ".md": {
+                    "code": 0,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".json": {
+                    "code": 12028,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".html": {
+                    "code": 638,
+                    "comment": 1,
+                    "blank": 40
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 502,
+                    "code": 1490,
+                    "comment": 302,
+                    "filename": "app\\css\\libs\\libs.css"
+                },
+                {
+                    "blank": 97,
+                    "code": 969,
+                    "comment": 0,
+                    "filename": "app\\css\\main.css"
+                },
+                {
+                    "filename": "app\\images\\affordable.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\back-btn.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\changes-img-mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\changes-img.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\changes-tablets.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\data-processing-question-icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\drug-img-1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\drug-img-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\drug-img-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\drug-img-4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\header-arrow-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\header-arrow.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\icon1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\icon2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\icon3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-1-mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-2-mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-3-mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-4-mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-bottom.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\list-style-img.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\mobile-arrow.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\mobile-tablets.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\nav-menu-bg.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\nav-menu-icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\peculiarities-img-1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\peculiarities-img-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\peculiarities-img-4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-bg.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-5.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-plus.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-mobile-img-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-mobile-img-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-mobile-img-4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-mobile-img-5.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-mobile-img.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-prediculation-img.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\r-prazicvantel-logo-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\R-prazicvantel.ico.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\shops-1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\shops-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\shops-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\shops-4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\shops-5.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\tablets.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\bg-worms.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\dog.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\mobile-bg.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\plus-bg.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\without-worms.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 40,
+                    "code": 638,
+                    "comment": 1,
+                    "filename": "app\\index.html"
+                },
+                {
+                    "blank": 244,
+                    "code": 1631,
+                    "comment": 599,
+                    "filename": "app\\js\\libs\\lib.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "app\\js\\navMenu.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "app\\js\\plus.js"
+                },
+                {
+                    "blank": 17,
+                    "code": 58,
+                    "comment": 5,
+                    "filename": "app\\js\\script.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 52,
+                    "comment": 2,
+                    "filename": "app\\js\\slider.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "app\\README.md"
+                },
+                {
+                    "blank": 15,
+                    "code": 204,
+                    "comment": 0,
+                    "filename": "app\\scss\\_askQuestion.scss"
+                },
+                {
+                    "blank": 5,
+                    "code": 69,
+                    "comment": 0,
+                    "filename": "app\\scss\\_changes.scss"
+                },
+                {
+                    "blank": 20,
+                    "code": 252,
+                    "comment": 1,
+                    "filename": "app\\scss\\_header.scss"
+                },
+                {
+                    "blank": 5,
+                    "code": 70,
+                    "comment": 0,
+                    "filename": "app\\scss\\_indication.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "app\\scss\\_modalVideo.scss"
+                },
+                {
+                    "blank": 8,
+                    "code": 78,
+                    "comment": 0,
+                    "filename": "app\\scss\\_navigationMenu.scss"
+                },
+                {
+                    "blank": 13,
+                    "code": 332,
+                    "comment": 1,
+                    "filename": "app\\scss\\_plus.scss"
+                },
+                {
+                    "blank": 4,
+                    "code": 69,
+                    "comment": 1,
+                    "filename": "app\\scss\\_shoose.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "app\\scss\\_shops.scss"
+                },
+                {
+                    "blank": 12,
+                    "code": 76,
+                    "comment": 0,
+                    "filename": "app\\scss\\main.scss"
+                },
+                {
+                    "blank": 16,
+                    "code": 62,
+                    "comment": 0,
+                    "filename": "gulpfile.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 12000,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "package.json"
+                }
+            ]
+        },
+        {
+            "version": "0.2.7",
+            "counttime": "2021-07-29 15:14:21",
+            "filesum": 82,
+            "codesum": 18182,
+            "commentsum": 912,
+            "blanksum": 1025,
+            "statistics": {
+                ".json": {
+                    "code": 12028,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".js": {
+                    "code": 1822,
+                    "comment": 606,
+                    "blank": 300
+                },
+                ".scss": {
+                    "code": 1234,
+                    "comment": 3,
+                    "blank": 86
+                },
+                "": {
+                    "code": 1,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".md": {
+                    "code": 0,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".html": {
+                    "code": 638,
+                    "comment": 1,
+                    "blank": 40
+                },
+                ".css": {
+                    "code": 2459,
+                    "comment": 302,
+                    "blank": 599
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 502,
+                    "code": 1490,
+                    "comment": 302,
+                    "filename": "app\\css\\libs\\libs.css"
+                },
+                {
+                    "blank": 97,
+                    "code": 969,
+                    "comment": 0,
+                    "filename": "app\\css\\main.css"
+                },
+                {
+                    "filename": "app\\images\\affordable.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\back-btn.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\changes-img-mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\changes-img.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\changes-tablets.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\data-processing-question-icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\drug-img-1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\drug-img-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\drug-img-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\drug-img-4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\header-arrow-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\header-arrow.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\icon1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\icon2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\icon3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-1-mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-2-mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-3-mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-4-mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-bottom.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\list-style-img.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\mobile-arrow.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\mobile-tablets.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\nav-menu-bg.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\nav-menu-icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\peculiarities-img-1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\peculiarities-img-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\peculiarities-img-4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-bg.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-5.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-plus.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-mobile-img-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-mobile-img-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-mobile-img-4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-mobile-img-5.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-mobile-img.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-prediculation-img.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\r-prazicvantel-logo-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\R-prazicvantel.ico.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\shops-1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\shops-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\shops-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\shops-4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\shops-5.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\tablets.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\bg-worms.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\dog.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\mobile-bg.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\plus-bg.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\without-worms.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 40,
+                    "code": 638,
+                    "comment": 1,
+                    "filename": "app\\index.html"
+                },
+                {
+                    "blank": 244,
+                    "code": 1631,
+                    "comment": 599,
+                    "filename": "app\\js\\libs\\lib.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "app\\js\\navMenu.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "app\\js\\plus.js"
+                },
+                {
+                    "blank": 17,
+                    "code": 58,
+                    "comment": 5,
+                    "filename": "app\\js\\script.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 52,
+                    "comment": 2,
+                    "filename": "app\\js\\slider.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "app\\README.md"
+                },
+                {
+                    "blank": 15,
+                    "code": 204,
+                    "comment": 0,
+                    "filename": "app\\scss\\_askQuestion.scss"
+                },
+                {
+                    "blank": 5,
+                    "code": 69,
+                    "comment": 0,
+                    "filename": "app\\scss\\_changes.scss"
+                },
+                {
+                    "blank": 20,
+                    "code": 252,
+                    "comment": 1,
+                    "filename": "app\\scss\\_header.scss"
+                },
+                {
+                    "blank": 5,
+                    "code": 70,
+                    "comment": 0,
+                    "filename": "app\\scss\\_indication.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "app\\scss\\_modalVideo.scss"
+                },
+                {
+                    "blank": 8,
+                    "code": 78,
+                    "comment": 0,
+                    "filename": "app\\scss\\_navigationMenu.scss"
+                },
+                {
+                    "blank": 13,
+                    "code": 332,
+                    "comment": 1,
+                    "filename": "app\\scss\\_plus.scss"
+                },
+                {
+                    "blank": 4,
+                    "code": 69,
+                    "comment": 1,
+                    "filename": "app\\scss\\_shoose.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "app\\scss\\_shops.scss"
+                },
+                {
+                    "blank": 12,
+                    "code": 76,
+                    "comment": 0,
+                    "filename": "app\\scss\\main.scss"
+                },
+                {
+                    "blank": 16,
+                    "code": 62,
+                    "comment": 0,
+                    "filename": "gulpfile.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 12000,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "package.json"
+                }
+            ]
+        },
+        {
+            "version": "0.2.7",
+            "counttime": "2021-07-29 15:14:44",
+            "filesum": 82,
+            "codesum": 18182,
+            "commentsum": 912,
+            "blanksum": 1025,
+            "statistics": {
+                ".json": {
+                    "code": 12028,
+                    "comment": 0,
+                    "blank": 0
+                },
+                "": {
+                    "code": 1,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".js": {
+                    "code": 1822,
+                    "comment": 606,
+                    "blank": 300
+                },
+                ".scss": {
+                    "code": 1234,
+                    "comment": 3,
+                    "blank": 86
+                },
+                ".md": {
+                    "code": 0,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".html": {
+                    "code": 638,
+                    "comment": 1,
+                    "blank": 40
+                },
+                ".css": {
+                    "code": 2459,
+                    "comment": 302,
+                    "blank": 599
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 502,
+                    "code": 1490,
+                    "comment": 302,
+                    "filename": "app\\css\\libs\\libs.css"
+                },
+                {
+                    "blank": 97,
+                    "code": 969,
+                    "comment": 0,
+                    "filename": "app\\css\\main.css"
+                },
+                {
+                    "filename": "app\\images\\affordable.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\back-btn.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\changes-img-mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\changes-img.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\changes-tablets.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\data-processing-question-icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\drug-img-1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\drug-img-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\drug-img-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\drug-img-4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\header-arrow-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\header-arrow.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\icon1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\icon2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\icon3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-1-mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-2-mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-3-mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-4-mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\indication-bottom.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\list-style-img.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\mobile-arrow.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\mobile-tablets.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\nav-menu-bg.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\nav-menu-icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\peculiarities-img-1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\peculiarities-img-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\peculiarities-img-4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-bg.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-5.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-item-plus.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-mobile-img-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-mobile-img-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-mobile-img-4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-mobile-img-5.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-mobile-img.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\plus-prediculation-img.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\r-prazicvantel-logo-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\R-prazicvantel.ico.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\shops-1.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\shops-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\shops-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\shops-4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\shops-5.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\images\\tablets.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\bg-worms.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\dog.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\mobile-bg.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\plus-bg.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "app\\img\\without-worms.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 40,
+                    "code": 638,
+                    "comment": 1,
+                    "filename": "app\\index.html"
+                },
+                {
+                    "blank": 244,
+                    "code": 1631,
+                    "comment": 599,
+                    "filename": "app\\js\\libs\\lib.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "app\\js\\navMenu.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "app\\js\\plus.js"
+                },
+                {
+                    "blank": 17,
+                    "code": 58,
+                    "comment": 5,
+                    "filename": "app\\js\\script.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 52,
+                    "comment": 2,
+                    "filename": "app\\js\\slider.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "app\\README.md"
+                },
+                {
+                    "blank": 15,
+                    "code": 204,
+                    "comment": 0,
+                    "filename": "app\\scss\\_askQuestion.scss"
+                },
+                {
+                    "blank": 5,
+                    "code": 69,
+                    "comment": 0,
+                    "filename": "app\\scss\\_changes.scss"
+                },
+                {
+                    "blank": 20,
+                    "code": 252,
+                    "comment": 1,
+                    "filename": "app\\scss\\_header.scss"
+                },
+                {
+                    "blank": 5,
+                    "code": 70,
+                    "comment": 0,
+                    "filename": "app\\scss\\_indication.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "app\\scss\\_modalVideo.scss"
+                },
+                {
+                    "blank": 8,
+                    "code": 78,
+                    "comment": 0,
+                    "filename": "app\\scss\\_navigationMenu.scss"
+                },
+                {
+                    "blank": 13,
+                    "code": 332,
+                    "comment": 1,
+                    "filename": "app\\scss\\_plus.scss"
+                },
+                {
+                    "blank": 4,
+                    "code": 69,
+                    "comment": 1,
+                    "filename": "app\\scss\\_shoose.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "app\\scss\\_shops.scss"
+                },
+                {
+                    "blank": 12,
+                    "code": 76,
+                    "comment": 0,
+                    "filename": "app\\scss\\main.scss"
+                },
+                {
+                    "blank": 16,
+                    "code": 62,
+                    "comment": 0,
+                    "filename": "gulpfile.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 12000,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "package.json"
+                }
+            ]
+        }
+    ]
+}

@@ -15,7 +15,7 @@
 
 .drug-item-text {
     margin-top: 51px;
-    font-size: 28.785px;
+    font-size: 24px;
     font-family: "Roboto";
     color: rgb(102, 102, 102);
     line-height: 1.2;
@@ -49,9 +49,6 @@
     .choose__drug-item {
         margin-bottom: 50px;
         width: 100%;
-        img {
-            transform: translate(20px);
-        }
     }
     .drug-item-img {
         width: 100%;
@@ -63,7 +60,7 @@
         }
     }
     .drug-item-text {
-        margin-top: 30px;
+        margin-top: 15px;
         font-size: 15px;
     }
     .choose__affordable-img {

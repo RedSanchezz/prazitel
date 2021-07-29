@@ -3,12 +3,29 @@
     form {
         padding-top: 50px;
     }
+    input {
+        outline: none;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+    input:focus {
+        border: 1px solid #225787;
+    }
+    textarea {
+        outline: none;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+    textarea:focus {
+        border: 1px solid #225787;
+    }
 }
 
 .ask-question__input-name {
     max-width: 555px;
     width: 100%;
     padding: 0 10px;
+    height: 37px;
     &::-webkit-input-placeholder {
         font-size: 18px;
         font-family: "Roboto";
@@ -31,6 +48,7 @@
     max-width: 555px;
     width: 100%;
     padding: 0 10px;
+    height: 37px;
     &::-webkit-input-placeholder {
         font-size: 18px;
         font-family: "Roboto";
@@ -161,6 +179,9 @@
     .ask-question {
         background-image: none;
         background-color: #ececec;
+        .section-title {
+            margin: 0;
+        }
     }
     .ask-question__mobile-title {
         display: block;

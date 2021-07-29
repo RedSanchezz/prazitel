@@ -5,11 +5,18 @@
     .small-text {
         margin-top: 30px;
         color: #666666;
+        line-height: 1.4;
+        font-weight: 300;
     }
     .column {
         padding: 0 15px;
         height: calc(100vh - 82px);
         position: relative;
+    }
+    .section-title {
+        text-align: left;
+        white-space: nowrap;
+        font-weight: 500;
     }
 }
 
@@ -52,6 +59,7 @@
         padding-top: 20px;
         font-size: 15px;
         color: #666666;
+        font-weight: 300;
     }
     .changes-mobile__tablets {
         margin-top: 60px;

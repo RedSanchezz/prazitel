@@ -42,6 +42,7 @@ function wheel(e){
 window.addEventListener('wheel', wheel);
 
 function setCurrentSlide(number){
+    navMenu.classList.remove('active');
     if(window.matchMedia('(max-width: 768px)').matches) return;
     if(number===0){
         navMenu.style.display='none';

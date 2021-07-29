@@ -199,9 +199,13 @@
 
 .plus__peculiarities-content {
     display: flex;
+    &.grid-block {
+        padding-top: 120px;
+    }
     .plus__peculiarities-title {
         color: #303030;
         font-size: 30px;
+        font-weight: 500;
         // padding-top: 50px;
     }
     .with-padding {
@@ -209,13 +213,14 @@
     }
     .plus__peculiarities-text {
         font-size: 18px;
-        color: #666666;
         margin-top: 30px;
+        color: #666666;
+        line-height: 1.4;
+        font-weight: 300;
     }
     ul {
         margin-top: 32px;
         li {
-            // font-size: 15px;
             color: #666666;
             padding-left: 23px;
             list-style: none;
@@ -226,7 +231,7 @@
                 position: absolute;
                 content: '';
                 top: 8px;
-                left: 0;
+                left: 7px;
                 background-image: url(../images/list-style-img.png);
                 background-size: cover;
                 width: 8px;
@@ -245,7 +250,7 @@
 
 .plus__peculiarities-top-img {
     position: absolute;
-    top: 118px;
+    top: 160px;
     left: 50%;
     transform: translate(-50%);
 }
@@ -292,8 +297,9 @@
         .section-title {
             font-size: 24px;
             color: #303030;
-            padding: 51px 40px 0 40px;
+            padding: 51px 0px 0 0px;
             margin: 0;
+            font-weight: 600;
         }
         ul {
             li {
@@ -307,7 +313,7 @@
                     position: absolute;
                     content: '';
                     top: 3px;
-                    left: 0;
+                    left: 6px;
                     background-image: url(../images/list-style-img.png);
                     background-size: cover;
                     width: 8px;
@@ -326,14 +332,15 @@
         }
     }
     .plus-mobile__title {
-        font-size: 15px;
+        font-size: 18px;
         color: #303030;
         padding-bottom: 12px;
-        font-weight: 600;
+        font-weight: 500;
     }
     .plus-mobile__text {
         font-size: 15px;
         color: #666666;
         padding-bottom: 20px;
+        line-height: 1.2;
     }
 }
