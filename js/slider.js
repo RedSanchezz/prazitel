@@ -17,6 +17,7 @@ const whereBuy = document.querySelector('.navigation-menu__where-buy');
 
 
 
+
 let activeBlockNumber = Math.ceil(pageYOffset/window.innerHeight);
 setCurrentSlide(activeBlockNumber);
 
@@ -31,6 +32,8 @@ whereBuy.addEventListener('click', () => {
 })
 
 function wheel(e){
+     if(window.matchMedia('(max-width: 768px)').matches) return;
+
     if(e.deltaY>0){
         if(activeBlockNumber <slides.length -1) setCurrentSlide(activeBlockNumber+1);
     }
@@ -43,7 +46,6 @@ window.addEventListener('wheel', wheel);
 
 function setCurrentSlide(number){
     navMenu.classList.remove('active');
-    if(window.matchMedia('(max-width: 768px)').matches) return;
     if(number===0){
         navMenu.style.display='none';
     }else{

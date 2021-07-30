@@ -73,8 +73,8 @@ window.onload = ()=>{
 }
 
 
-let clue = document.querySelector('.ask-question__checkbox-question');
-let icon = document.querySelector('.ask-question__question-icon');
-icon.addEventListener('click', (e) => {
-    clue.classList.toggle('active');
-})
+// let clue = document.querySelector('.ask-question__checkbox-question');
+// let icon = document.querySelector('.ask-question__question-icon');
+// icon.addEventListener('click', (e) => {
+//     clue.classList.toggle('active');
+// })
