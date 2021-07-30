@@ -13,11 +13,9 @@
     align-items: center;
 }
 
-.drug-item-text {
+.drug-item__text {
     margin-top: 51px;
     font-size: 24px;
-    font-family: "Roboto";
-    color: rgb(102, 102, 102);
     line-height: 1.2;
     text-align: center;
     // transform: translate(-20px);
@@ -50,7 +48,7 @@
         margin-bottom: 50px;
         width: 100%;
     }
-    .drug-item-img {
+    .drug-item__img {
         width: 100%;
         display: flex;
         align-items: center;
@@ -59,9 +57,9 @@
             width: 50%;
         }
     }
-    .drug-item-text {
+    .drug-item__text {
         margin-top: 15px;
-        font-size: 15px;
+        font-size: 18px;
     }
     .choose__affordable-img {
         display: flex;

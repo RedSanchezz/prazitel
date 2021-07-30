@@ -26,7 +26,9 @@ body {
   font-weight: 600; }
 
 .small-text {
-  font-size: 18px; }
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 300; }
 
 .gray-text {
   padding-top: 10px;
@@ -45,7 +47,7 @@ section {
   font-size: 30px;
   font-family: "Roboto";
   color: #303030;
-  line-height: 1.6;
+  line-height: 1.2;
   font-weight: 500; }
 
 .row {
@@ -61,7 +63,12 @@ section {
     padding: 0 15px; }
   .section-title {
     line-height: 1.2;
-    font-size: 24px; } }
+    font-size: 24px; }
+  .small-text {
+    font-size: 15px;
+    color: #666666;
+    padding-bottom: 20px;
+    line-height: 1.2; } }
 
 .navigation-menu {
   position: fixed;
@@ -344,13 +351,13 @@ section {
     flex-wrap: wrap;
     margin-top: 100px; }
   .header-arrow-text {
-    font-size: 15px; }
+    font-size: 18px; }
   .icons__item:nth-child(3) {
     margin-top: 25px;
     width: 100%; } }
 
 .special__indication {
-  margin-top: 54px; }
+  padding-top: 54px; }
 
 .special-mobile {
   display: none; }
@@ -362,8 +369,6 @@ section {
   text-align: center;
   margin-bottom: 35px;
   height: 70px;
-  font-size: 28.785px;
-  font-family: "Roboto";
   line-height: 1.2; }
 
 .indication__item.bottom {
@@ -374,7 +379,7 @@ section {
     position: absolute;
     top: 76px;
     left: 112px;
-    font-size: 28.785px;
+    font-size: 24px;
     font-family: "Roboto";
     line-height: 1.2; }
 
@@ -385,7 +390,6 @@ section {
     display: block;
     background-color: #ececec; }
     .special-mobile .section-title {
-      font-size: 24px;
       margin-top: 0;
       padding-top: 50px; }
   .special-mobile__inner {
@@ -405,15 +409,14 @@ section {
     font-family: "Roboto";
     color: #666666;
     line-height: 1.2;
-    text-align: center;
     margin-bottom: 20px; } }
 
 .changes .container {
-  display: flex; }
+  display: flex;
+  padding: 0; }
 
 .changes .small-text {
   margin-top: 30px;
-  color: #666666;
   line-height: 1.4;
   font-weight: 300; }
 
@@ -424,7 +427,6 @@ section {
 
 .changes .section-title {
   text-align: left;
-  white-space: nowrap;
   font-weight: 500; }
 
 .changes__tablets {
@@ -436,7 +438,7 @@ section {
 .changes-img {
   position: absolute;
   bottom: 0;
-  width: 80%; }
+  height: 25%; }
 
 .changes__tablets {
   margin-bottom: 144px; }
@@ -476,7 +478,7 @@ section {
 
 .plus__center-img {
   position: absolute;
-  top: 50%;
+  top: 465px;
   left: 50%;
   transform: translate(-50%, -50%); }
 
@@ -601,6 +603,7 @@ section {
   width: 100vw;
   height: 100vh;
   background-image: url(../img/without-worms.jpg);
+  background-size: cover;
   z-index: -1;
   transition: all 0.5s;
   opacity: 0; }
@@ -640,24 +643,20 @@ section {
   .plus__peculiarities-content.grid-block {
     padding-top: 120px; }
   .plus__peculiarities-content .plus__peculiarities-title {
-    color: #303030;
-    font-size: 30px;
-    font-weight: 500; }
+    text-align: left;
+    margin-top: 0; }
   .plus__peculiarities-content .with-padding {
     padding-top: 50px; }
   .plus__peculiarities-content .plus__peculiarities-text {
-    font-size: 18px;
-    color: #666666;
-    margin-top: 30px; }
+    margin-top: 30px;
+    font-weight: 300; }
   .plus__peculiarities-content ul {
     margin-top: 32px; }
     .plus__peculiarities-content ul li {
-      color: #666666;
       padding-left: 23px;
       list-style: none;
       padding-bottom: 20px;
-      position: relative;
-      line-height: 1.5; }
+      position: relative; }
       .plus__peculiarities-content ul li::before {
         position: absolute;
         content: '';
@@ -714,8 +713,6 @@ section {
       margin: 0;
       font-weight: 600; }
     .plus-mobile ul li {
-      font-size: 15px;
-      color: #303030;
       padding-left: 23px;
       list-style: none;
       padding-bottom: 20px;
@@ -760,11 +757,9 @@ section {
   flex-direction: column;
   align-items: center; }
 
-.drug-item-text {
+.drug-item__text {
   margin-top: 51px;
   font-size: 24px;
-  font-family: "Roboto";
-  color: #666666;
   line-height: 1.2;
   text-align: center; }
 
@@ -790,16 +785,16 @@ section {
   .choose__drug-item {
     margin-bottom: 50px;
     width: 100%; }
-  .drug-item-img {
+  .drug-item__img {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center; }
-    .drug-item-img img {
+    .drug-item__img img {
       width: 50%; }
-  .drug-item-text {
+  .drug-item__text {
     margin-top: 15px;
-    font-size: 15px; }
+    font-size: 18px; }
   .choose__affordable-img {
     display: flex;
     align-items: center;
@@ -827,14 +822,18 @@ section {
   .shops {
     height: auto;
     display: block;
-    padding-top: 50px; }
+    padding-top: 50px;
+    background-image: none;
+    background-color: #ececec; }
     .shops .section-title {
       display: block;
       margin-bottom: 50px;
       margin-top: 0; }
   .shops__inner {
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr; }
+    grid-template-columns: 1fr 1fr;
+    max-width: 295px;
+    margin: 0 auto; }
   .shops__inner-item {
     display: flex;
     align-items: center;
@@ -852,6 +851,8 @@ section {
 
 .ask-question {
   position: relative; }
+  .ask-question .section-title {
+    display: none; }
   .ask-question form {
     padding-top: 50px; }
   .ask-question input {
@@ -872,6 +873,7 @@ section {
   width: 100%;
   padding: 0 10px;
   height: 37px;
+  margin-right: 10px;
   border-width: 1px;
   border-color: #225787;
   border-style: solid;
@@ -893,6 +895,7 @@ section {
   width: 100%;
   padding: 0 10px;
   height: 37px;
+  margin-left: 10px;
   border-width: 1px;
   border-color: #225787;
   border-style: solid;
@@ -936,10 +939,8 @@ section {
   align-items: center; }
 
 .ask-question__data-processing-text {
-  font-size: 18px;
   padding-top: 10px;
   margin-right: 20px;
-  color: #666666;
   font-weight: 300;
   margin-left: 25px; }
 
@@ -950,6 +951,8 @@ section {
 .ask-question__checkbox {
   width: 40px;
   height: 40px;
+  min-width: 40px;
+  min-height: 40px;
   cursor: pointer; }
 
 .footer {
@@ -1008,7 +1011,20 @@ section {
     background-image: none;
     background-color: #ececec; }
     .ask-question .section-title {
-      margin: 0; }
+      margin: 0;
+      display: block; }
+  .ask-question__data-processing {
+    margin-top: 18px;
+    align-items: flex-start; }
+  .ask-question__data-processing-text {
+    padding-top: 0; }
+  .g-recaptcha {
+    margin-top: 15px; }
+  .ask-question__submit-btn {
+    margin-top: 18px; }
+  .ya-share2 {
+    margin-top: 50px;
+    margin-bottom: 25px; }
   .ask-question__mobile-title {
     display: block;
     font-size: 24px;
@@ -1020,10 +1036,12 @@ section {
     .ask-question .mobile-column {
       flex-direction: column; }
     .ask-question .ask-question__input-name {
-      max-width: 100%; }
+      max-width: 100%;
+      margin-right: 0; }
     .ask-question .ask-question__input-email {
       max-width: 100%;
-      margin-top: 20px; }
+      margin-top: 20px;
+      margin-left: 0; }
     .ask-question .ask-question__checkbox-question {
       width: 100%; }
   .ask-question__question-icon {

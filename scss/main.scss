@@ -32,6 +32,8 @@ body {
 
 .small-text {
     font-size: 18px;
+    line-height: 1.4;
+    font-weight: 300;
 }
 
 .gray-text {
@@ -53,7 +55,7 @@ section {
     font-size: 30px;
     font-family: "Roboto";
     color: rgb(48, 48, 48);
-    line-height: 1.6;
+    line-height: 1.2;
     font-weight: 500;
 }
 
@@ -75,11 +77,17 @@ section {
         line-height: 1.2;
         font-size: 24px;
     }
+    .small-text {
+        font-size: 15px;
+        color: #666666;
+        padding-bottom: 20px;
+        line-height: 1.2;
+    }
 }
 
 @import '_navigationMenu.scss';
 @import '_header.scss';
-@import '_indication.scss';
+@import '_special.scss';
 @import '_changes.scss';
 @import '_plus.scss';
 @import '_shoose.scss';

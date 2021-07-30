@@ -9,7 +9,7 @@ const texts = [
             'Ассортимент',
             'Где купить',
             'Задать вопрос ветеринарному врачу'
-]
+] 
 const navMenu = document.querySelector('.navigation-menu');
 const navMenuText = document.querySelector('.navigation-menu__active-window-text');
 const whereBuy = document.querySelector('.navigation-menu__where-buy');
@@ -64,5 +64,5 @@ function setCurrentSlide(number){
 
     // console.log('Y offset '+pageYOffset);
     // scrollTo(0, clientRect.top + pageYOffset);
-}
+} 
 

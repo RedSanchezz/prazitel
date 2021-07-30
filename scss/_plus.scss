@@ -7,7 +7,7 @@
 
 .plus__center-img {
     position: absolute;
-    top: 50%;
+    top: 465px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -155,6 +155,7 @@
     width: 100vw;
     height: 100vh;
     background-image: url(../img/without-worms.jpg);
+    background-size: cover;
     z-index: -1;
     transition: all 0.5s;
     opacity: 0;
@@ -203,28 +204,25 @@
         padding-top: 120px;
     }
     .plus__peculiarities-title {
-        color: #303030;
-        font-size: 30px;
-        font-weight: 500;
-        // padding-top: 50px;
+        text-align: left;
+        margin-top: 0;
     }
     .with-padding {
         padding-top: 50px;
     }
     .plus__peculiarities-text {
-        font-size: 18px;
-        color: #666666;
         margin-top: 30px;
+        font-weight: 300;
     }
     ul {
         margin-top: 32px;
         li {
-            color: #666666;
+            // color: #666666;
             padding-left: 23px;
             list-style: none;
             padding-bottom: 20px;
             position: relative;
-            line-height: 1.5;
+            // line-height: 1.5;
             &::before {
                 position: absolute;
                 content: '';
@@ -301,8 +299,6 @@
         }
         ul {
             li {
-                font-size: 15px;
-                color: #303030;
                 padding-left: 23px;
                 list-style: none;
                 padding-bottom: 20px;

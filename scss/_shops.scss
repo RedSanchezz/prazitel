@@ -22,6 +22,8 @@
         height: auto;
         display: block;
         padding-top: 50px;
+        background-image: none;
+        background-color: #ececec;
         .section-title {
             display: block;
             margin-bottom: 50px;
@@ -31,6 +33,8 @@
     .shops__inner {
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr;
+        max-width: 295px;
+        margin: 0 auto;
     }
     .shops__inner-item {
         display: flex;
