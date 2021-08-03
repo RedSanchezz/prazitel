@@ -65,7 +65,7 @@ section {
     line-height: 1.2;
     font-size: 24px; }
   .small-text {
-    font-size: 15px;
+    font-size: 18px;
     color: #666666;
     padding-bottom: 20px;
     line-height: 1.2; } }
@@ -224,14 +224,14 @@ section {
 
 .header-arrow {
   position: absolute;
-  top: 10px;
+  top: 491px;
   overflow: hidden; }
   .header-arrow img {
     width: 100%; }
 
 .header-arrow-text {
   position: absolute;
-  top: 0;
+  top: 523.672px;
   left: 0;
   font-size: 30px;
   color: #ffffff;
@@ -283,7 +283,8 @@ section {
   .header-arrow-2 {
     display: none; }
   .header-arrow-text {
-    left: 15px; }
+    left: 15px;
+    top: 467.062px; }
   .header-content__bottom {
     margin-top: 113px; }
   body {
@@ -458,10 +459,7 @@ section {
       text-align: left;
       font-size: 18px; }
   .changes-mobile__text {
-    padding-top: 20px;
-    font-size: 15px;
-    color: #666666;
-    font-weight: 300; }
+    padding-top: 12px; }
   .changes-mobile__tablets {
     margin-top: 60px;
     width: 100%;
@@ -739,10 +737,7 @@ section {
     padding-bottom: 12px;
     font-weight: 500; }
   .plus-mobile__text {
-    font-size: 15px;
-    color: #666666;
-    padding-bottom: 20px;
-    line-height: 1.2; } }
+    padding-bottom: 20px; } }
 
 .choose__drug-list {
   margin-top: 94px;
@@ -916,7 +911,7 @@ section {
   margin-top: 38px;
   width: 100%;
   padding: 10px;
-  height: 235px;
+  height: 20vh;
   resize: none;
   border-width: 1px;
   border-color: #225787;
