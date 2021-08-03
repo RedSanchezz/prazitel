@@ -718,7 +718,7 @@ section {
       .plus-mobile ul li::before {
         position: absolute;
         content: '';
-        top: 3px;
+        top: 6px;
         left: 6px;
         background-image: url(../images/list-style-img.png);
         background-size: cover;

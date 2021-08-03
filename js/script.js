@@ -66,7 +66,14 @@ window.onload = ()=>{
         let lineArrowCoord = parseInt(lineArrow.style.top) + lineArrow.getBoundingClientRect().height/3;
         console.log(lineArrowCoord);
         // headerArrowText.style.top = clientRectImgTablet.bottom + pageYOffset - 105 + 'px';
-        headerArrowText.style.top = lineArrowCoord + 'px';
+        if(window.matchMedia('(max-width: 768px)').matches){
+            headerArrowText.style.top = lineArrowCoord -4 + 'px';
+
+
+        }
+        else {
+            headerArrowText.style.top = lineArrowCoord + 'px';
+        }
         textLeftPosition =  container.getBoundingClientRect().left + 15 + 'px';
         // headerArrowText.style.left = textLeftPosition; 
     }
