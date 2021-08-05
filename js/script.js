@@ -1,6 +1,7 @@
 const header = document.querySelector('#header_block');
 const headerContent = document.querySelector('.header-content');
 const headerBg = document.querySelector('.header-bg');
+const headerDog = document.querySelector('.header-dog ')
 const imgTablet = document.querySelector('#tablet_img');
 const lineArrow  = document.querySelector('.header-arrow');
 const lineImg = document.querySelector('#img_arrow');
@@ -34,6 +35,7 @@ window.onload = ()=>{
     function setHeaderBgSize(){
         headerBg.style.height = getComputedStyle(headerContent).height;
         header.style.height = getComputedStyle(headerContent).height;
+        headerDog.style.height = getComputedStyle(headerContent).height;
     }
     
     function getArrowCoord (){
