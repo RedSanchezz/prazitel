@@ -319,8 +319,10 @@
 }
 
 @media (min-width: 768px) and (max-height: 867px) {
-    .header-top {}
-    .header-dog {}
+    .header-dog {
+        background-position: top 20% left 25%;
+        background-size: 60%;
+    }
     .header-top__logo {
         img {
             width: 240px;
@@ -338,8 +340,6 @@
     .header-arrow {
         top: 430px;
     }
-    .header-arrow-2 {}
-    .header-content__bottom {}
 }
 
 @media (min-width: 768px) and (max-height: 750px) {
@@ -363,41 +363,41 @@
         top: 370px;
     }
     .header-dog {
-        background-position: top 32% left 25%;
+        background-position: top 5% left 30%;
         background-size: 60%;
     }
 }
 
-@media (min-width: 768px) and (max-height: 665px) {
-    .header-top {
-        padding-top: 25px
-    }
-    .header-dog {
-        background-position: top 32% left 25%;
-        background-size: 60%;
-    }
-    .header-top__logo {
-        img {
-            width: 200px;
-        }
-    }
-    .header-content__tablet {
-        padding-top: 100px;
-        padding-right: 30px;
-        img {
-            width: 300px;
-        }
-    }
-    .header-arrow-text {
-        top: 330px;
-    }
-    .header-arrow {
-        top: 310px;
-    }
-    .header-arrow-2 {
-        top: 270px;
-    }
-    .header-content__bottom {
-        margin-top: 40px;
-    }
-}
+// @media (min-width: 768px) and (max-height: 665px) {
+//     .header-top {
+//         padding-top: 25px
+//     }
+//     .header-dog {
+//         background-position: top 32% left 25%;
+//         background-size: 60%;
+//     }
+//     .header-top__logo {
+//         img {
+//             width: 200px;
+//         }
+//     }
+//     .header-content__tablet {
+//         padding-top: 100px;
+//         padding-right: 30px;
+//         img {
+//             width: 300px;
+//         }
+//     }
+//     .header-arrow-text {
+//         top: 330px;
+//     }
+//     .header-arrow {
+//         top: 310px;
+//     }
+//     .header-arrow-2 {
+//         top: 270px;
+//     }
+//     .header-content__bottom {
+//         margin-top: 40px;
+//     }
+// }
