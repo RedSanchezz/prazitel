@@ -335,3 +335,61 @@
         padding-bottom: 20px;
     }
 }
+
+@media (min-width: 768px) and (max-height: 865px) {
+    .plus__inner-block {
+        transform: scale(0.9);
+        &.security {
+            top: 30px;
+        }
+        &.liver {
+            top: 270px;
+            left: 50px;
+        }
+        &.intestines {
+            top: 380px;
+            left: 400px;
+        }
+        &.convenience {
+            top: 270px;
+        }
+    }
+    .plus__center-img {
+        top: 400px;
+        img {
+            width: 400px;
+        }
+    }
+    .plus__peculiarities-top-img {
+        top: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-height: 750px) {
+    .plus__inner-block {
+        transform: scale(0.7);
+        &.security {
+            top: 20px;
+        }
+        &.liver {
+            top: 230px;
+            left: 50px;
+        }
+        &.intestines {
+            top: 320px;
+            left: 400px;
+        }
+        &.convenience {
+            top: 230px;
+        }
+    }
+    .plus__center-img {
+        top: 380px;
+        img {
+            width: 350px;
+        }
+    }
+    .plus__peculiarities-content.grid-block {
+        padding-top: 220px;
+    }
+}

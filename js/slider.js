@@ -14,10 +14,6 @@ const navMenu = document.querySelector('.navigation-menu');
 const navMenuText = document.querySelector('.navigation-menu__active-window-text');
 const whereBuy = document.querySelector('.navigation-menu__where-buy');
 
-
-
-
-
 let activeBlockNumber = Math.ceil(pageYOffset/window.innerHeight);
 setCurrentSlide(activeBlockNumber);
 
@@ -32,7 +28,7 @@ whereBuy.addEventListener('click', () => {
 })
 
 function wheel(e){
-     if(window.matchMedia('(max-width: 768px)').matches) return;
+    if(window.matchMedia('(max-width: 768px)').matches) return;
 
     if(e.deltaY>0){
         if(activeBlockNumber <slides.length -1) setCurrentSlide(activeBlockNumber+1);
@@ -67,4 +63,7 @@ function setCurrentSlide(number){
     // console.log('Y offset '+pageYOffset);
     // scrollTo(0, clientRect.top + pageYOffset);
 } 
+
+
+// var scale = 'scale(0.5)';
 

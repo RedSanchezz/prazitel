@@ -224,7 +224,7 @@ section {
 
 .header-arrow {
   position: absolute;
-  top: 491px;
+  top: 489px;
   overflow: hidden; }
   .header-arrow img {
     width: 100%; }
@@ -249,17 +249,24 @@ section {
 .icons__item {
   width: 33%; }
 
+.header-content__mobile-arrow {
+  display: none; }
+
 @media (max-width: 1500px) {
   .header-dog {
     background-size: 90%;
     background-position: -50px 40px; }
   .header-arrow-text {
+    left: 15px;
+    top: 515px;
     line-height: 2; } }
 
 @media (max-width: 1200px) {
   .header-dog {
     background-size: 90%;
-    background-position: -66px 75px; } }
+    background-position: -66px 75px; }
+  .header-arrow-text {
+    top: 504px; } }
 
 @media (max-width: 992px) {
   .header-dog {
@@ -267,7 +274,10 @@ section {
     background-position: -130px 92px; }
   .header-content__tablet img {
     width: 355px; }
+  .header-arrow {
+    top: 469px; }
   .header-arrow-text {
+    top: 485px;
     left: 20px;
     font-size: 24px;
     line-height: 35px; } }
@@ -285,6 +295,23 @@ section {
   .header-arrow-text {
     left: 15px;
     top: 467.062px; }
+  .header-arrow {
+    top: auto;
+    bottom: 325px;
+    width: 100% !important; }
+  .header-dog .container {
+    position: static; }
+  .header-arrow-text {
+    top: auto;
+    bottom: 285px; }
+  .header-content__mobile-arrow {
+    display: block;
+    position: absolute;
+    bottom: 325px;
+    left: 0px;
+    right: 0px; }
+    .header-content__mobile-arrow img {
+      width: 100vw; }
   .header-content__bottom {
     margin-top: 113px; }
   body {
@@ -346,17 +373,72 @@ section {
 @media (max-width: 600px) {
   .header-arrow-text {
     padding-top: 0;
-    line-height: 2; } }
+    line-height: 2;
+    bottom: 272px; } }
 
 @media (max-width: 460px) {
+  .header-content__icons {
+    padding-top: 100px; }
   .header-content__bottom {
     flex-wrap: wrap;
     margin-top: 100px; }
+  .header-arrow {
+    bottom: 400px; }
   .header-arrow-text {
-    font-size: 18px; }
+    font-size: 18px;
+    bottom: 362px; }
   .icons__item:nth-child(3) {
     margin-top: 25px;
     width: 100%; } }
+
+@media (min-width: 768px) and (max-height: 867px) {
+  .header-top__logo img {
+    width: 240px; }
+  .header-content__tablet {
+    padding-top: 80px; }
+    .header-content__tablet img {
+      width: 400px; }
+  .header-arrow-text {
+    top: 450px; }
+  .header-arrow {
+    top: 430px; } }
+
+@media (min-width: 768px) and (max-height: 750px) {
+  .header-top__logo img {
+    width: 200px; }
+  .header-content__bottom {
+    margin-top: 40px; }
+  .header-content__tablet img {
+    width: 350px; }
+  .header-arrow-text {
+    top: 390px; }
+  .header-arrow {
+    top: 370px; }
+  .header-dog {
+    background-position: top 32% left 25%;
+    background-size: 60%; } }
+
+@media (min-width: 768px) and (max-height: 665px) {
+  .header-top {
+    padding-top: 25px; }
+  .header-dog {
+    background-position: top 32% left 25%;
+    background-size: 60%; }
+  .header-top__logo img {
+    width: 200px; }
+  .header-content__tablet {
+    padding-top: 100px;
+    padding-right: 30px; }
+    .header-content__tablet img {
+      width: 300px; }
+  .header-arrow-text {
+    top: 330px; }
+  .header-arrow {
+    top: 310px; }
+  .header-arrow-2 {
+    top: 270px; }
+  .header-content__bottom {
+    margin-top: 40px; } }
 
 .special__indication {
   padding-top: 54px; }
@@ -412,6 +494,31 @@ section {
     color: #666666;
     line-height: 1.2;
     margin-bottom: 20px; } }
+
+@media (min-width: 768px) and (max-height: 910px) {
+  .special .container {
+    max-width: 900px; }
+  .indication__item.bottom::before {
+    top: 30px; }
+  .indication__item-text {
+    margin-bottom: 20px; } }
+
+@media (min-width: 768px) and (max-height: 750px) {
+  .special .container {
+    max-width: 700px; }
+  .indication__item-text {
+    font-size: 22px; }
+  .special__indication {
+    padding-top: 30px; } }
+
+@media (min-width: 768px) and (max-height: 700px) {
+  .special .container {
+    max-width: 600px; }
+  .indication__item-text {
+    font-size: 18px; }
+  .indication__item.bottom::before {
+    top: 15px;
+    left: 50px; } }
 
 .changes .container {
   display: flex;
@@ -469,6 +576,25 @@ section {
     justify-content: center; }
     .changes-mobile__tablets img {
       width: 80%; } }
+
+@media (min-width: 768px) and (max-height: 865px) {
+  .section-title {
+    margin-top: 25px; }
+  .changes__tablets {
+    margin-bottom: 40px; }
+  .changes__tablets {
+    padding-top: 70px; } }
+
+@media (min-width: 768px) and (max-height: 750px) {
+  .section-title {
+    margin-top: 25px; }
+  .changes__tablets {
+    margin-bottom: 40px; }
+  .changes img {
+    width: 60%; }
+  .changes .changes-img {
+    width: auto;
+    height: 20%; } }
 
 .plus {
   position: relative; }
@@ -740,6 +866,46 @@ section {
   .plus-mobile__text {
     padding-bottom: 20px; } }
 
+@media (min-width: 768px) and (max-height: 865px) {
+  .plus__inner-block {
+    transform: scale(0.9); }
+    .plus__inner-block.security {
+      top: 30px; }
+    .plus__inner-block.liver {
+      top: 270px;
+      left: 50px; }
+    .plus__inner-block.intestines {
+      top: 380px;
+      left: 400px; }
+    .plus__inner-block.convenience {
+      top: 270px; }
+  .plus__center-img {
+    top: 400px; }
+    .plus__center-img img {
+      width: 400px; }
+  .plus__peculiarities-top-img {
+    top: 100px; } }
+
+@media (min-width: 768px) and (max-height: 750px) {
+  .plus__inner-block {
+    transform: scale(0.7); }
+    .plus__inner-block.security {
+      top: 20px; }
+    .plus__inner-block.liver {
+      top: 230px;
+      left: 50px; }
+    .plus__inner-block.intestines {
+      top: 320px;
+      left: 400px; }
+    .plus__inner-block.convenience {
+      top: 230px; }
+  .plus__center-img {
+    top: 380px; }
+    .plus__center-img img {
+      width: 350px; }
+  .plus__peculiarities-content.grid-block {
+    padding-top: 220px; } }
+
 .choose__drug-list {
   margin-top: 94px;
   display: flex;
@@ -797,6 +963,22 @@ section {
     justify-content: center; }
     .choose__affordable-img img {
       width: 95%; } }
+
+@media (min-width: 768px) and (max-height: 871px) {
+  .drug-item__img {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .drug-item__img img {
+      width: 75%; } }
+
+@media (min-width: 768px) and (max-height: 760px) {
+  .drug-item__img img {
+    width: 75%; }
+  .choose__drug-list {
+    margin-top: 50px; }
+  .drug-item__text {
+    margin-top: 20px; } }
 
 .shops {
   display: flex;
@@ -1046,6 +1228,24 @@ section {
     display: block; }
   .footer {
     position: static; } }
+
+@media (min-width: 768px) and (max-height: 871px) {
+  .ya-share2 {
+    margin-top: 30px; }
+  .ask-question__submit-btn {
+    margin-top: 20px; }
+  .ask-question__data-processing {
+    margin-top: 20px; }
+  .g-recaptcha {
+    margin-top: 20px; } }
+
+@media (min-width: 768px) and (max-height: 750px) {
+  .ya-share2 {
+    margin-top: 20px; }
+  .ask-question form {
+    padding-top: 20px; }
+  .ask-question__question {
+    margin-top: 20px; } }
 
 .modal-video {
   position: fixed;
