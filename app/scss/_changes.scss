@@ -1,10 +1,10 @@
 .changes {
     .container {
         display: flex;
+        padding: 0;
     }
     .small-text {
         margin-top: 30px;
-        color: #666666;
         line-height: 1.4;
         font-weight: 300;
     }
@@ -15,7 +15,6 @@
     }
     .section-title {
         text-align: left;
-        white-space: nowrap;
         font-weight: 500;
     }
 }
@@ -30,7 +29,8 @@
 .changes-img {
     position: absolute;
     bottom: 0;
-    width: 80%;
+    // width: 80%;
+    height: 25%;
 }
 
 .changes__tablets {
@@ -56,10 +56,7 @@
         }
     }
     .changes-mobile__text {
-        padding-top: 20px;
-        font-size: 15px;
-        color: #666666;
-        font-weight: 300;
+        padding-top: 12px;
     }
     .changes-mobile__tablets {
         margin-top: 60px;
@@ -69,6 +66,53 @@
         justify-content: center;
         img {
             width: 80%;
+        }
+    }
+}
+
+// @media (min-width: 768px) and (max-height: 910px) {
+//     .changes {
+//         img {
+//             width: 80%;
+//         }
+//         .changes-img {
+//             width: auto;
+//             height: 20%;
+//         }
+//     }
+//     .section-title {
+//         margin-top: 25px;
+//     }
+//     .changes__tablets {
+//         margin-bottom: 40px;
+//     }
+// }
+@media (min-width: 768px) and (max-height: 865px) {
+    .section-title {
+        margin-top: 25px;
+    }
+    .changes__tablets {
+        margin-bottom: 40px;
+    }
+    .changes__tablets {
+        padding-top: 70px;
+    }
+}
+
+@media (min-width: 768px) and (max-height: 750px) {
+    .section-title {
+        margin-top: 25px;
+    }
+    .changes__tablets {
+        margin-bottom: 40px;
+    }
+    .changes {
+        img {
+            width: 60%;
+        }
+        .changes-img {
+            width: auto;
+            height: 20%;
         }
     }
 }

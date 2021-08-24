@@ -1,5 +1,8 @@
 .ask-question {
     position: relative;
+    .section-title {
+        display: none;
+    }
     form {
         padding-top: 50px;
     }
@@ -26,6 +29,7 @@
     width: 100%;
     padding: 0 10px;
     height: 37px;
+    margin-right: 10px;
     &::-webkit-input-placeholder {
         font-size: 18px;
         font-family: "Roboto";
@@ -49,6 +53,7 @@
     width: 100%;
     padding: 0 10px;
     height: 37px;
+    margin-left: 10px;
     &::-webkit-input-placeholder {
         font-size: 18px;
         font-family: "Roboto";
@@ -71,7 +76,7 @@
     margin-top: 38px;
     width: 100%;
     padding: 10px;
-    height: 235px;
+    height: 20vh;
     resize: none;
     &::-webkit-input-placeholder {
         font-size: 18px;
@@ -97,10 +102,8 @@
 }
 
 .ask-question__data-processing-text {
-    font-size: 18px;
     padding-top: 10px;
     margin-right: 20px;
-    color: #666666;
     font-weight: 300;
     margin-left: 25px;
 }
@@ -113,6 +116,8 @@
 .ask-question__checkbox {
     width: 40px;
     height: 40px;
+    min-width: 40px;
+    min-height: 40px;
     cursor: pointer;
 }
 
@@ -181,7 +186,25 @@
         background-color: #ececec;
         .section-title {
             margin: 0;
+            display: block;
         }
+    }
+    .ask-question__data-processing {
+        margin-top: 18px;
+        align-items: flex-start;
+    }
+    .ask-question__data-processing-text {
+        padding-top: 0;
+    }
+    .g-recaptcha {
+        margin-top: 15px;
+    }
+    .ask-question__submit-btn {
+        margin-top: 18px;
+    }
+    .ya-share2 {
+        margin-top: 50px;
+        margin-bottom: 25px;
     }
     .ask-question__mobile-title {
         display: block;
@@ -198,10 +221,12 @@
         }
         .ask-question__input-name {
             max-width: 100%;
+            margin-right: 0;
         }
         .ask-question__input-email {
             max-width: 100%;
             margin-top: 20px;
+            margin-left: 0;
         }
         .ask-question__checkbox-question {
             width: 100%;
@@ -215,5 +240,32 @@
     }
     .footer {
         position: static;
+    }
+}
+
+@media (min-width: 768px) and (max-height: 871px) {
+    .ya-share2 {
+        margin-top: 30px;
+    }
+    .ask-question__submit-btn {
+        margin-top: 20px;
+    }
+    .ask-question__data-processing {
+        margin-top: 20px;
+    }
+    .g-recaptcha {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-height: 750px) {
+    .ya-share2 {
+        margin-top: 20px;
+    }
+    .ask-question form {
+        padding-top: 20px;
+    }
+    .ask-question__question {
+        margin-top: 20px;
     }
 }
