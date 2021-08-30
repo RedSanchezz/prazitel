@@ -19,15 +19,12 @@ const video = document.querySelector('#video-instruction');
 var player;
 function onYouTubePlayerAPIReady() {
     // create the global player from the specific iframe (#video)
-    console.log('test');
     player = new YT.Player('video-instruction', {
         events: {
             // call this function when player is ready to use
             'onReady': onPlayerReady
         }
     });
-    console.log('test2');
-
 }
 function onPlayerReady(e) {
     const modalCloseBtn = document.querySelector('.modal-video__back-btn');
@@ -42,9 +39,6 @@ function onPlayerReady(e) {
 modalWindowBtn.addEventListener('click', (e) => {
     modalWindow.classList.add('active');
 })
-// modalCloseBtn.addEventListener('click', (e) => {
-//     modalWindow.classList.remove('active');
-// })
 
 
 
