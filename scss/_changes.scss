@@ -116,3 +116,25 @@
         }
     }
 }
+
+@media (min-width: 768px) and (max-height: 750px) {
+    .changes__tablets {
+        margin-bottom: 40px;
+    }
+    .changes {
+        // img {
+        //     width: 60%;
+        // }
+        .changes-img {
+            width: auto;
+            height: 20%;
+        }
+        .small-text {
+            margin-top: 20px;
+        }
+        .section-title {
+            margin-top: 20px;
+            font-size: 27px;
+        }
+    }
+}

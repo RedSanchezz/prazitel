@@ -95,3 +95,20 @@
         margin-top: 20px;
     }
 }
+
+@media (min-width: 768px) and (max-height: 670px) {
+    .drug-item__img {
+        img {
+            width: 60%;
+        }
+    }
+    .choose__drug-list {
+        margin-top: 50px;
+    }
+    .drug-item__text {
+        margin-top: 20px;
+    }
+    .choose__affordable {
+        margin-top: 20px;
+    }
+}

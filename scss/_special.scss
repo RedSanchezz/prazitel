@@ -81,8 +81,6 @@
     }
     .indication__item.bottom::before {
         top: 30px;
-    }
-    .indication__item-text {
         margin-bottom: 20px;
     }
 }
@@ -94,6 +92,9 @@
         }
     }
     .indication__item-text {
+        font-size: 22px;
+    }
+    .indication__item.bottom::before {
         font-size: 22px;
     }
     .special__indication {
@@ -113,5 +114,6 @@
     .indication__item.bottom::before {
         top: 15px;
         left: 50px;
+        font-size: 18px;
     }
 }

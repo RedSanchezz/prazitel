@@ -10,9 +10,9 @@ const container = document.querySelector('.container');
 const imgArrow2 = document.querySelector('#img_arrow2');
 
 const modalWindow = document.querySelector('.modal-video');
+
 const modalWindowBtn = document.querySelector('#watch-video');
 const modalCloseBtn = document.querySelector('.modal-video__back-btn');
-
 
 
 modalWindowBtn.addEventListener('click', (e) => {
@@ -34,6 +34,8 @@ window.onload = ()=>{
         getArrowCoord();
     });
     
+
+    //Задаем размер. Не можем задать через vh изза мобильных стилей.
     function setHeaderBgSize(){
         headerBg.style.height = getComputedStyle(headerContent).height;
         header.style.height = getComputedStyle(headerContent).height;
@@ -45,19 +47,13 @@ window.onload = ()=>{
         //если мобильные стили - стрелка должна быть под упаковкой
         if(window.matchMedia('(max-width: 768px)').matches){
             lineImg.src = 'images/mobile-arrow.png';
-            return;
         }
         else {
             lineImg.src = 'images/header-arrow.png';
-
+            let width =  clientRectImgTablet.left + clientRectImgTablet.width - 80  +'px';
+            lineArrow.style.width = width;
+            imgArrow2.style.width = window.innerWidth - clientRectImgTablet.left - 100 +'px';
         }
-        let width =  clientRectImgTablet.left + clientRectImgTablet.width - 80  +'px';
-        lineArrow.style.width = width;
-        // lineArrow.style.top = clientRectImgTablet.top + clientRectImgTablet.height  - height + pageYOffset -60 + 'px';
-        //координаты текста
-        //Задаем координаты второй линии
-        imgArrow2.style.width = window.innerWidth - clientRectImgTablet.left - 100 +'px';
-
     }
 
 }

@@ -2,7 +2,6 @@ let pluses = document.querySelectorAll('.plus__inner-block-plus');
 let plusContents = document.querySelectorAll('.plus__peculiarities');
 
 
-
 for (let i=0; i < pluses.length; i++) {
     let plus = pluses[i];
     let plusConetent = plusContents[i];
