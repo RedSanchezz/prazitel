@@ -13,15 +13,39 @@ const modalWindow = document.querySelector('.modal-video');
 
 const modalWindowBtn = document.querySelector('#watch-video');
 const modalCloseBtn = document.querySelector('.modal-video__back-btn');
+const video = document.querySelector('#video-instruction');
+
+
+var player;
+function onYouTubePlayerAPIReady() {
+    // create the global player from the specific iframe (#video)
+    console.log('test');
+    player = new YT.Player('video-instruction', {
+        events: {
+            // call this function when player is ready to use
+            'onReady': onPlayerReady
+        }
+    });
+    console.log('test2');
+
+}
+function onPlayerReady(e) {
+    const modalCloseBtn = document.querySelector('.modal-video__back-btn');
+
+    modalCloseBtn.addEventListener("click", function() {
+        player.stopVideo();
+        modalWindow.classList.remove('active');
+    });
+}
 
 
 modalWindowBtn.addEventListener('click', (e) => {
     modalWindow.classList.add('active');
 })
+// modalCloseBtn.addEventListener('click', (e) => {
+//     modalWindow.classList.remove('active');
+// })
 
-modalCloseBtn.addEventListener('click', (e) => {
-    modalWindow.classList.remove('active');
-})
 
 
 window.onload = ()=>{
@@ -58,3 +82,9 @@ window.onload = ()=>{
 
 }
 
+
+
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/player_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
