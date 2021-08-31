@@ -15,12 +15,35 @@ const modalCloseBtn = document.querySelector('.modal-video__back-btn');
 
 
 
-modalWindowBtn.addEventListener('click', (e) => {
-    modalWindow.classList.add('active');
+const loadedIframe = false;
+
+setTimeout(() => {
     let modalCenterBlock = modalWindow.querySelector('center');
     let iframe = document.createElement('iframe');
-    iframe.src = 'https://www.youtube.com/embed/UPEjiORVwT4'
+    iframe.src = 'https://www.youtube.com/embed/UPEjiORVwT4';
+
+    iframe.style.maxWidth = '700px';
+    iframe.width='100%';
+    iframe.height = '400';
     modalCenterBlock.appendChild(iframe);
+    loadedIframe=true;
+}, 0);
+
+
+modalWindowBtn.addEventListener('click', (e) => {
+    modalWindow.classList.add('active');
+    // if(!loadedIframe) {
+    //     let modalCenterBlock = modalWindow.querySelector('center');
+    //     let iframe = document.createElement('iframe');
+    //     iframe.src = 'https://www.youtube.com/embed/UPEjiORVwT4';
+
+    //     iframe.style.maxWidth = '700px';
+    //     iframe.width='100%';
+    //     iframe.height = '400';
+    //     modalCenterBlock.appendChild(iframe);
+    //     loadedIframe=true;
+    // }
+
 })
 
 modalCloseBtn.addEventListener('click', (e) => {
