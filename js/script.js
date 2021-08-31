@@ -15,7 +15,7 @@ const modalCloseBtn = document.querySelector('.modal-video__back-btn');
 
 
 
-const loadedIframe = false;
+let loadedIframe = false;
 
 
 modalWindowBtn.addEventListener('click', (e) => {
