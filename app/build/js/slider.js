@@ -13,10 +13,12 @@ const texts = [
 const navMenu = document.querySelector('.navigation-menu');
 const navMenuText = document.querySelector('.navigation-menu__active-window-text');
 const whereBuy = document.querySelector('.navigation-menu__where-buy');
+const navigationMenu = document.querySelector('.navigation-menu');
+const clickedMenuBlock = document.querySelector('.navigation-menu__active-widnow-inner');
 
 let activeBlockNumber = Math.ceil(pageYOffset/window.innerHeight);
 setCurrentSlide(activeBlockNumber);
-
+//если первый слайд - то скрываем меню
 if(activeBlockNumber===0){
     navMenu.style.display='none';
 }else{
@@ -35,18 +37,25 @@ function wheel(e){
     }
     else {
         if(activeBlockNumber>0) setCurrentSlide(activeBlockNumber-1);
-
     }
 }
 window.addEventListener('wheel', wheel);
 
+clickedMenuBlock.addEventListener('click', (e)=>{
+    navigationMenu.classList.toggle('active');
+})
+
+
 function setCurrentSlide(number){
     navMenu.classList.remove('active');
+    //Если первый слайд - скрываем меню
     if(number===0){
         navMenu.style.display='none';
     }else{
         navMenu.style.display='';
     }
+
+    //на время выключаем скролл
     window.removeEventListener('wheel', wheel);
     setTimeout(() => {
         window.addEventListener('wheel', wheel);
@@ -57,9 +66,9 @@ function setCurrentSlide(number){
         top: top,
         behavior: 'smooth'
     });
+    //надпись в верхнем меню
     navMenuText.innerHTML=texts[number-1];
     activeBlockNumber = number;
 } 
-
 
 
