@@ -56,7 +56,7 @@ modalWindowBtn.addEventListener('click', (e) => {
     if(!loadedIframe) {
         let modalCenterBlock = modalWindow.querySelector('center');
         let iframe = document.createElement('iframe');
-        iframe.src = 'https://www.youtube.com/embed/UPEjiORVwT4';
+        iframe.src = 'https://www.youtube.com/embed/70pt9xfW-EE';
 
         iframe.style.maxWidth = '700px';
         iframe.width='100%';
@@ -90,14 +90,13 @@ window.onload = ()=>{
     function getArrowCoord (){
         let clientRectImgTablet = imgTablet.getBoundingClientRect();
         //если мобильные стили - стрелка должна быть под упаковкой
-
         if(window.matchMedia('(max-width: 768px)').matches){
-            lineImg.previousSibling.srcset='images/mobile-arrow.webp'
+            lineImg.previousElementSibling.srcset='images/mobile-arrow.webp'
             lineImg.src = 'images/mobile-arrow.png';
             return;
         }
         else {
-            lineImg.previousSibling.srcset='images/header-arrow.webp'
+            lineImg.previousElementSibling.srcset='images/header-arrow.webp'
             lineImg.src = 'images/header-arrow.png';
 
         }
