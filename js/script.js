@@ -112,10 +112,10 @@ window.onload = ()=>{
 
 }
 
-
-
+const formBtn = document.querySelector('.ask-question__submit-btn');
+formBtn.disabled=true;
 setTimeout(() => {
-    console.log('test');
+    formBtn.disabled = false;
     var head = document.getElementsByTagName('head')[0];
     var script = document.createElement('script');
     script.type = 'text/javascript';
