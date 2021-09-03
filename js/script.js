@@ -134,7 +134,7 @@ setTimeout(() => {
     script2.src = "https://yastatic.net/share2/share.js";
     head.appendChild(script);
     document.body.append(script2);
-}, 1000);
+}, 5000);
 
 const sections = document.querySelectorAll('section');
 const headerBlock = document.querySelector('header');
