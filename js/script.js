@@ -37,6 +37,7 @@ const headerDog = document.querySelector('.header-dog ')
 const imgTablet = document.querySelector('#tablet_img');
 const lineArrow  = document.querySelector('.header-arrow');
 const lineImg = document.querySelector('#img_arrow');
+
 const headerArrowText = document.querySelector('.header-arrow-text');
 const container = document.querySelector('.container');
 const imgArrow2 = document.querySelector('#img_arrow2');
@@ -89,11 +90,14 @@ window.onload = ()=>{
     function getArrowCoord (){
         let clientRectImgTablet = imgTablet.getBoundingClientRect();
         //если мобильные стили - стрелка должна быть под упаковкой
+
         if(window.matchMedia('(max-width: 768px)').matches){
+            lineImg.previousSibling.srcset='images/mobile-arrow.webp'
             lineImg.src = 'images/mobile-arrow.png';
             return;
         }
         else {
+            lineImg.previousSibling.srcset='images/header-arrow.webp'
             lineImg.src = 'images/header-arrow.png';
 
         }
@@ -109,6 +113,28 @@ window.onload = ()=>{
 }
 
 
+
+setTimeout(() => {
+    console.log('test');
+    var head = document.getElementsByTagName('head')[0];
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.onload = function() {
+        grecaptcha.ready(function() {
+            grecaptcha.execute('_reCAPTCHA_site_key_', {
+                action: 'homepage'
+            }).then(function(token) {});
+        });
+    }
+    script.src = "https://www.google.com/recaptcha/api.js?render=_reCAPTCHA_site_key";
+
+    let script2 = document.createElement('script');
+    script2.type = 'text/javascript';
+
+    script2.src = "https://yastatic.net/share2/share.js";
+    head.appendChild(script);
+    document.body.append(script2);
+}, 1000);
 
 const sections = document.querySelectorAll('section');
 const headerBlock = document.querySelector('header');
